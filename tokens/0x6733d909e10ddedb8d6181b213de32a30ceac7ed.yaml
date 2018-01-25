@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: BTSE
+__FORKDELTA_CUSTOM_SYMBOL: BTSE
 addr: '0x6733d909e10ddedb8d6181b213de32a30ceac7ed'
 decimals: 18
 description: >-
@@ -17,3 +17,4 @@ links:
 - Whitepaper: https://bitserial.io/v2/docs/whitepaper.pdf
 name: BitSerial
 symbol: BTE
+

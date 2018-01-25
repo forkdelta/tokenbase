@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: FDX
+__FORKDELTA_CUSTOM_SYMBOL: FDX
 addr: '0x52a7cb918c11a16958be40cba7e31e32a499a465'
 decimals: 18
 description: >-
@@ -19,3 +19,4 @@ links:
 - Whitepaper: https://www.fidentiax.com/whitepaper
 name: fidentiaX
 symbol: fdX
+

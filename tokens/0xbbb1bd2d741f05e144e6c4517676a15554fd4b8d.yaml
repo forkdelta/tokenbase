@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: FUNOLD
+__FORKDELTA_CUSTOM_SYMBOL: FUNOLD
 addr: '0xbbb1bd2d741f05e144e6c4517676a15554fd4b8d'
 decimals: 8
 description: >-
@@ -11,3 +11,4 @@ links:
 - Website: https://www.funfair.io
 name: FunFair
 symbol: FUN
+

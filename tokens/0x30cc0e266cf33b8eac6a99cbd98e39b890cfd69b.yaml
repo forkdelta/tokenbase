@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: CLASSY
+__FORKDELTA_CUSTOM_SYMBOL: CLASSY
 addr: '0x30cc0e266cf33b8eac6a99cbd98e39b890cfd69b'
 decimals: 16
 description: >-
@@ -15,3 +15,4 @@ links:
 - Whitepaper: http://www.classycoin.io/pdf/white_paper.pdf
 name: ClassyCoin
 symbol: ClassyCoin
+

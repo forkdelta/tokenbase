@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: JADE
+__FORKDELTA_CUSTOM_SYMBOL: JADE
 addr: '0xa6e7172662379f1f4c72108655869abdbb7f7672'
 decimals: 5
 description: >-
@@ -11,3 +11,4 @@ links:
 - Whitepaper: https://www.jadecoinofficial.org/whitepaper
 name: Jade
 symbol: Jade
+

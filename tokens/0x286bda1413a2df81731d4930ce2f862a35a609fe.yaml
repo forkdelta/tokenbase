@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: WABI
+__FORKDELTA_CUSTOM_SYMBOL: WABI
 addr: '0x286bda1413a2df81731d4930ce2f862a35a609fe'
 decimals: 18
 description: >-
@@ -18,3 +18,4 @@ links:
 - Whitepaper: http://resources.wacoin.io/WaBI_Whitepaper_ENG.pdf
 name: WaBi
 symbol: WaBi
+

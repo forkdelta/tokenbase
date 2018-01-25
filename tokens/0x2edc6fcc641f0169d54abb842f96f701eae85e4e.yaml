@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: ADUOLD
+__FORKDELTA_CUSTOM_SYMBOL: ADUOLD
 addr: '0x2edc6fcc641f0169d54abb842f96f701eae85e4e'
 decimals: 18
 description: >-
@@ -7,3 +7,4 @@ description: >-
 links: []
 name: Aducoin
 symbol: ADU
+

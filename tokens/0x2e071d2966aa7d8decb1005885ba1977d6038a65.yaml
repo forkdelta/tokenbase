@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: DICE
+__FORKDELTA_CUSTOM_SYMBOL: DICE
 addr: '0x2e071d2966aa7d8decb1005885ba1977d6038a65'
 decimals: 16
 description: >-
@@ -18,3 +18,4 @@ links:
 - Website: http://etheroll.com/
 name: DICE
 symbol: ROL
+

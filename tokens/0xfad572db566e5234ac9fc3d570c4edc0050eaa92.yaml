@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: BTHE
+__FORKDELTA_CUSTOM_SYMBOL: BTHE
 addr: '0xfad572db566e5234ac9fc3d570c4edc0050eaa92'
 decimals: 18
 description: >-
@@ -19,3 +19,4 @@ links:
 - Website: https://www.bytether.com/
 name: Bytether
 symbol: BTH
+

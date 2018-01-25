@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: EXRP2
+__FORKDELTA_CUSTOM_SYMBOL: EXRP2
 addr: '0xb518d165398d9057ea8b73096edda5c7754bcd62'
 decimals: 18
 description: >-
@@ -13,3 +13,4 @@ links:
 - Website: https://eripple.io
 name: eRipple
 symbol: EXRP
+

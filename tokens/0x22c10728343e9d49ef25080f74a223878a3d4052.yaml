@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: DRP2
+__FORKDELTA_CUSTOM_SYMBOL: DRP2
 addr: '0x22c10728343e9d49ef25080f74a223878a3d4052'
 decimals: 8
 description: >-
@@ -14,3 +14,4 @@ links:
 - Website: https://digitalrupiah.id
 name: Digital Rupiah
 symbol: DRP
+

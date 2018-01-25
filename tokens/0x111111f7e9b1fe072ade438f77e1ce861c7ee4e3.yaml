@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: CAT2
+__FORKDELTA_CUSTOM_SYMBOL: CAT2
 addr: '0x111111f7e9b1fe072ade438f77e1ce861c7ee4e3'
 decimals: 18
 description: >-
@@ -18,3 +18,4 @@ notice: >-
 
   <p>New contract: <a href="https://etherscan.io/token/0x1234567461d3f8db7496581774bd869c83d51c93">0x1234567461d3f8Db7496581774Bd869C83D51c93</a></p>
 symbol: CAT
+

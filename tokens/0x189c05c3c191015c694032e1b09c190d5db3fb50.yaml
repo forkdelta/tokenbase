@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: READ
+__FORKDELTA_CUSTOM_SYMBOL: READ
 addr: '0x189c05c3c191015c694032e1b09c190d5db3fb50'
 decimals: 8
 description: >-
@@ -12,3 +12,4 @@ links:
 - Whitepaper: https://www.readcoin.org/images/The%20Readcoin%20White%20Paper.pdf
 name: Readcoin
 symbol: RCN
+

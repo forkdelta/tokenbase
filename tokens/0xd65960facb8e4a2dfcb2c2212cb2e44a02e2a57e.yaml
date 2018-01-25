@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: SOAR
+__FORKDELTA_CUSTOM_SYMBOL: SOAR
 addr: '0xd65960facb8e4a2dfcb2c2212cb2e44a02e2a57e'
 decimals: 6
 description: >-
@@ -15,3 +15,4 @@ links:
 - Website: https://www.soarlabs.org/
 name: Soarcoin
 symbol: Soar
+

@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: PPT2
+__FORKDELTA_CUSTOM_SYMBOL: PPT2
 addr: '0x2469f31a34fcaac0debf73806ce39b2388874b13'
 decimals: 18
 description: >-
@@ -13,3 +13,4 @@ links:
 - Whitepaper: http://www.proofsuite.com/media/whitepaper.pdf
 name: Proof Presale Token
 symbol: PPT
+

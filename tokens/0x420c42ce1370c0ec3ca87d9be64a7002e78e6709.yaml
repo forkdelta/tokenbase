@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: STCN
+__FORKDELTA_CUSTOM_SYMBOL: STCN
 addr: '0x420c42ce1370c0ec3ca87d9be64a7002e78e6709'
 decimals: 0
 description: >-
@@ -12,3 +12,4 @@ links:
 - Website: http://www.stop-tabac.io/
 name: Stop Tabac Coin
 symbol: STCn
+

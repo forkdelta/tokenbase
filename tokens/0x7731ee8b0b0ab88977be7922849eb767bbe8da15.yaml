@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: ABSOLD
+__FORKDELTA_CUSTOM_SYMBOL: ABSOLD
 addr: '0x7731ee8b0b0ab88977be7922849eb767bbe8da15'
 decimals: 18
 description: >-
@@ -10,3 +10,4 @@ links:
 - Website: http://adtli.net/
 name: cryptoabs
 symbol: ABS
+

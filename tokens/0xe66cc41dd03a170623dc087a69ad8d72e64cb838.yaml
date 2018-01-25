@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: BTH2
+__FORKDELTA_CUSTOM_SYMBOL: BTH2
 addr: '0xe66cc41dd03a170623dc087a69ad8d72e64cb838'
 decimals: 18
 description: >-
@@ -16,3 +16,4 @@ links:
 - Website: https://bitether.io
 name: BITETHER
 symbol: BTH
+

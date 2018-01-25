@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: CARE
+__FORKDELTA_CUSTOM_SYMBOL: CARE
 addr: '0x149a23f3d1a1e61e1e3b7eddd27f32e01f9788c7'
 decimals: 18
 description: >-
@@ -18,3 +18,4 @@ links:
 - Website: http://www.carecoin.community/
 name: CareCoin
 symbol: CCT
+

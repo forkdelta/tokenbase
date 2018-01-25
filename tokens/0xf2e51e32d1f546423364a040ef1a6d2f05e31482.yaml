@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: HUBC
+__FORKDELTA_CUSTOM_SYMBOL: HUBC
 addr: '0xf2e51e32d1f546423364a040ef1a6d2f05e31482'
 decimals: 6
 description: >-
@@ -10,3 +10,4 @@ links:
 - Website: https://hubcoin.io
 name: Hubcoin
 symbol: HUB
+

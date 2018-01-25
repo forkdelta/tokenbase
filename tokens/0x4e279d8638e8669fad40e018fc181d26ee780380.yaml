@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: ETV
+__FORKDELTA_CUSTOM_SYMBOL: ETV
 addr: '0x4e279d8638e8669fad40e018fc181d26ee780380'
 decimals: 8
 description: >-
@@ -13,3 +13,4 @@ links:
 - Website: https://etelevision.org
 name: eTelevision
 symbol: eTV
+

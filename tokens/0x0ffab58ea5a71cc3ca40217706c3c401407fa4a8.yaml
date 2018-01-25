@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: INDIOLD
+__FORKDELTA_CUSTOM_SYMBOL: INDIOLD
 addr: '0x0ffab58ea5a71cc3ca40217706c3c401407fa4a8'
 decimals: 18
 description: >-
@@ -19,3 +19,4 @@ links:
 - Website: https://www.indicoin.org.in/
 name: Indicoin
 symbol: INDI
+

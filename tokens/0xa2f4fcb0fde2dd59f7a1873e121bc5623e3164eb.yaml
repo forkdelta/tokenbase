@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: AIRA
+__FORKDELTA_CUSTOM_SYMBOL: AIRA
 addr: '0xa2f4fcb0fde2dd59f7a1873e121bc5623e3164eb'
 decimals: 0
 description: >-
@@ -19,3 +19,4 @@ links:
 - Whitepaper: http://aira.life/wp-content/uploads/2017/08/Aira_robot_economics_doctrine_1-3.pdf
 name: Air phase 1
 symbol: AIR
+

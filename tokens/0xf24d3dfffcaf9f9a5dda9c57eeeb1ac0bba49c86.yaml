@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: XMAS
+__FORKDELTA_CUSTOM_SYMBOL: XMAS
 addr: '0xf24d3dfffcaf9f9a5dda9c57eeeb1ac0bba49c86'
 decimals: 18
 description: >-
@@ -18,3 +18,4 @@ links:
 - Whitepaper: http://www.xmastoken.com/XMAS%20WhitePaper.pdf
 name: XmasToken
 symbol: xmas
+

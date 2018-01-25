@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: SONM
+__FORKDELTA_CUSTOM_SYMBOL: SONM
 addr: '0x983f6d60db79ea8ca4eb9968c6aff8cfa04b3c63'
 decimals: 18
 description: >-
@@ -19,3 +19,4 @@ links:
 - Whitepaper: http://a.sonm.io/whitepaper
 name: SONM Token
 symbol: SNM
+

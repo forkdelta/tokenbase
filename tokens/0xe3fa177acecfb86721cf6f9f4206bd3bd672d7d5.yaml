@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: CTT
+__FORKDELTA_CUSTOM_SYMBOL: CTT
 addr: '0xe3fa177acecfb86721cf6f9f4206bd3bd672d7d5'
 decimals: 18
 description: >-
@@ -18,3 +18,4 @@ links:
 - Whitepaper: https://chaintrade.net/wp-content/uploads/2017/11/ChainTrade_Whitepaper_v0.81.pdf
 name: ChainTrade Coin
 symbol: CTC
+

@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: BOPTOLD
+__FORKDELTA_CUSTOM_SYMBOL: BOPTOLD
 addr: '0x9cb9eb4bb7800bdbb017be2a4ffbeccb67454ea9'
 decimals: 8
 description: >-
@@ -8,3 +8,4 @@ links:
 - Website: http://blockoptions.io/
 name: blockoptions
 symbol: BOPT
+

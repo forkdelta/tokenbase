@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: ETHCEN
+__FORKDELTA_CUSTOM_SYMBOL: ETHCEN
 addr: '0x44830e5fbe354af3c1c8d405170c08d3bc8a2cd9'
 decimals: 8
 description: >-
@@ -17,3 +17,4 @@ links:
 - Website: https://ethereumcenturion.com/
 name: Ethereum Centurion
 symbol: ETHC
+

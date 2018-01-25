@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: NXXOLD
+__FORKDELTA_CUSTOM_SYMBOL: NXXOLD
 addr: '0x5c6183d10a00cd747a6dbb5f658ad514383e9419'
 decimals: 8
 description: >-
@@ -18,3 +18,4 @@ links:
 - Whitepaper: http://www.nexxuspartners.com/sections/company/21/partners/white-paper.html
 name: Nexxus
 symbol: NXX
+

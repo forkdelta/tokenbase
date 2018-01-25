@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: WNDOLD
+__FORKDELTA_CUSTOM_SYMBOL: WNDOLD
 addr: '0x6d7a4c14c997333e304d5aef2aece73fd60ecc59'
 decimals: 18
 description: >-
@@ -15,3 +15,4 @@ links:
 - Website: https://wndtoken.com/home
 name: Windy
 symbol: WND
+

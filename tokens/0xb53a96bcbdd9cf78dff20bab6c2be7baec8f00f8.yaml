@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: EGAS
+__FORKDELTA_CUSTOM_SYMBOL: EGAS
 addr: '0xb53a96bcbdd9cf78dff20bab6c2be7baec8f00f8'
 decimals: 8
 description: >-
@@ -18,3 +18,4 @@ links:
 - Whitepaper: http://ethgas.stream/eGASwhitepaper.pdf
 name: ETHGAS
 symbol: eGAS
+

@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: WIC
+__FORKDELTA_CUSTOM_SYMBOL: WIC
 addr: '0x5e4abe6419650ca839ce5bb7db422b881a6064bb'
 decimals: 18
 description: >-
@@ -19,3 +19,4 @@ links:
 - Whitepaper: https://www.cryptowi.com/wp
 name: Wi Coin
 symbol: WiC
+

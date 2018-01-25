@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: IETH
+__FORKDELTA_CUSTOM_SYMBOL: IETH
 addr: '0x859a9c0b44cb7066d956a958b0b82e54c9e44b4b'
 decimals: 8
 description: >-
@@ -18,3 +18,4 @@ links:
 - Whitepaper: http://iethereum.trade/whitepaper/
 name: iEthereum
 symbol: iETH
+

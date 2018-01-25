@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: ELTC2
+__FORKDELTA_CUSTOM_SYMBOL: ELTC2
 addr: '0x7e9d62e1ff4e34096f91ee0153222ab81f7184f0'
 decimals: 8
 description: >-
@@ -8,3 +8,4 @@ links:
 - Website: http://www.eltc.io
 name: eLTC
 symbol: ELTC
+

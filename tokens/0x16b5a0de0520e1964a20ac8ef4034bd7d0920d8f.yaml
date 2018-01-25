@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: TIOTOUR
+__FORKDELTA_CUSTOM_SYMBOL: TIOTOUR
 addr: '0x16b5a0de0520e1964a20ac8ef4034bd7d0920d8f'
 decimals: 18
 description: >-
@@ -19,3 +19,4 @@ links:
 - Whitepaper: https://drive.google.com/file/d/0B95wMxL58TWsTVZlM0ZkbXF5SVE/view
 name: Tio
 symbol: TIO
+

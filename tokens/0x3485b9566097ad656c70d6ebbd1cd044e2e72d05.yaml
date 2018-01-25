@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: PNKOLD
+__FORKDELTA_CUSTOM_SYMBOL: PNKOLD
 addr: '0x3485b9566097ad656c70d6ebbd1cd044e2e72d05'
 decimals: 0
 description: >-
@@ -7,3 +7,4 @@ description: >-
 links: []
 name: Pinky
 symbol: PNK
+

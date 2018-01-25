@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: SMART
+__FORKDELTA_CUSTOM_SYMBOL: SMART
 addr: '0x6f6deb5db0c4994a8283a01d6cfeeb27fc3bbe9c'
 decimals: 0
 description: >-
@@ -20,3 +20,4 @@ links:
 - Whitepaper: https://smartbillions.com/docs/SmartBillions_Smartpaper.pdf
 name: SmartBillions Token
 symbol: Smart
+

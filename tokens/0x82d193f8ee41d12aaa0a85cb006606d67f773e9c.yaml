@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: SMT
+__FORKDELTA_CUSTOM_SYMBOL: SMT
 addr: '0x82d193f8ee41d12aaa0a85cb006606d67f773e9c'
 decimals: 1
 description: >-
@@ -9,3 +9,4 @@ links:
 - Website: http://samsungtoken.com/
 name: SamsungToken
 symbol: SamsungToken
+

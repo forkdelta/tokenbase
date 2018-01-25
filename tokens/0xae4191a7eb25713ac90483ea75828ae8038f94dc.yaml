@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: EZEC2
+__FORKDELTA_CUSTOM_SYMBOL: EZEC2
 addr: '0xae4191a7eb25713ac90483ea75828ae8038f94dc'
 decimals: 18
 description: >-
@@ -8,3 +8,4 @@ links:
 - Website: https://bitcointalk.org/index.php?topic=2251063.0
 name: eZEC
 symbol: EZEC
+

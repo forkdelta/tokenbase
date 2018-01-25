@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: EUSD
+__FORKDELTA_CUSTOM_SYMBOL: EUSD
 addr: '0x87611ca3403a3878dfef0da2a786e209abfc1eff'
 decimals: 8
 description: >-
@@ -12,3 +12,4 @@ links:
 - Website: http://eusd.io
 name: eUSD
 symbol: eUSD
+

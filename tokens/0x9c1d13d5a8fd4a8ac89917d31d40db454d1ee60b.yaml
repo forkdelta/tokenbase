@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: ELUNCH
+__FORKDELTA_CUSTOM_SYMBOL: ELUNCH
 addr: '0x9c1d13d5a8fd4a8ac89917d31d40db454d1ee60b'
 decimals: 18
 description: >-
@@ -12,3 +12,4 @@ links:
 - Website: http://launchertoken.xyz/
 name: ethereum launcher
 symbol: elunch
+

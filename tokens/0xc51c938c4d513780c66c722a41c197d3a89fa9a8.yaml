@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: EBTG
+__FORKDELTA_CUSTOM_SYMBOL: EBTG
 addr: '0xc51c938c4d513780c66c722a41c197d3a89fa9a8'
 decimals: 8
 description: >-
@@ -8,3 +8,4 @@ links:
 - Website: https://www.ebtg.org/
 name: eBGOLD
 symbol: eBTG
+

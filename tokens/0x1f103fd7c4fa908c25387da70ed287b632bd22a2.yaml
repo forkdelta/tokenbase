@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: ELTC3
+__FORKDELTA_CUSTOM_SYMBOL: ELTC3
 addr: '0x1f103fd7c4fa908c25387da70ed287b632bd22a2'
 decimals: 18
 description: >-
@@ -8,3 +8,4 @@ links:
 - Website: https://bitcointalk.org/index.php?topic=2241418.0
 name: eLTC
 symbol: ELTC
+

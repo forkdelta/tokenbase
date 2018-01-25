@@ -1,5 +1,5 @@
 ---
-WARNING_MISMATCHING_FORKDELTA_SYMBOL: WETOLD
+__FORKDELTA_CUSTOM_SYMBOL: WETOLD
 addr: '0x76195ffd0cfedf68625b3e5b64c7bd904eeb9d6c'
 decimals: 18
 description: >-
@@ -9,3 +9,4 @@ links:
 - Website: http://wellieat.com/
 name: wellieat
 symbol: WET
+
