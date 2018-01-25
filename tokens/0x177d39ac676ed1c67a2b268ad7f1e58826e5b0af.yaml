@@ -2,7 +2,10 @@
 addr: '0x177d39ac676ed1c67a2b268ad7f1e58826e5b0af'
 decimals: 18
 description: >-
-  CoinDash&nbsp;is&nbsp;an&nbsp;operating&nbsp;system&nbsp;for&nbsp;crypto&nbsp;assets.&nbsp;Our&nbsp;goal&nbsp;is&nbsp;to&nbsp;lower&nbsp;the&nbsp;barriers&nbsp;of&nbsp;entry&nbsp;to&nbsp;crypto&nbsp;investment&nbsp;markets&nbsp;by&nbsp;providing&nbsp;tools&nbsp;and&nbsp;services&nbsp;that&nbsp;make&nbsp;interacting,&nbsp;handling&nbsp;and&nbsp;trading&nbsp;crypto&nbsp;assets&nbsp;accessible&nbsp;to&nbsp;everyone.&nbsp;CoinDash&nbsp;will&nbsp;offer&nbsp;its&nbsp;products&nbsp;through&nbsp;a&nbsp;unified&nbsp;platform&nbsp;designed&nbsp;with&nbsp;the&nbsp;mainstream&nbsp;user&nbsp;in&nbsp;mind.
+  CoinDash is an operating system for crypto assets. Our goal is to lower the barriers of entry to crypto
+  investment markets by providing tools and services that make interacting, handling and trading crypto assets
+  accessible to everyone. CoinDash will offer its products through a unified platform designed with the
+  mainstream user in mind.
 links:
 - CoinMarketCap: coindash
 - Email: mailto:contact@coindash.io
