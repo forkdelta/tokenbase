@@ -1,0 +1,17 @@
+---
+__FORKDELTA_CUSTOM_SYMBOL: WNDOLD
+addr: '0x6d7a4c14c997333e304d5aef2aece73fd60ecc59'
+decimals: 18
+description: >-
+  Windy is an ERC20 token created on the Ethereum Blockchain with a fixed supply of 21,000,000 coins.
+  Created to support the process of building a mining system using wind energy and encourage the preservation
+  of our planet.
+links:
+- Bitcointalk: https://bitcointalk.org/index.php?topic=2315181.0
+- Email: mailto:info@wndtoken.com
+- Slack: https://wndtoken.slack.com/
+- Twitter: https://twitter.com/wndtoken
+- Website: https://wndtoken.com/
+- Website: https://wndtoken.com/home
+name: Windy
+symbol: WND

@@ -1,0 +1,15 @@
+---
+addr: '0x177d39ac676ed1c67a2b268ad7f1e58826e5b0af'
+decimals: 18
+description: >-
+  CoinDash&nbsp;is&nbsp;an&nbsp;operating&nbsp;system&nbsp;for&nbsp;crypto&nbsp;assets.&nbsp;Our&nbsp;goal&nbsp;is&nbsp;to&nbsp;lower&nbsp;the&nbsp;barriers&nbsp;of&nbsp;entry&nbsp;to&nbsp;crypto&nbsp;investment&nbsp;markets&nbsp;by&nbsp;providing&nbsp;tools&nbsp;and&nbsp;services&nbsp;that&nbsp;make&nbsp;interacting,&nbsp;handling&nbsp;and&nbsp;trading&nbsp;crypto&nbsp;assets&nbsp;accessible&nbsp;to&nbsp;everyone.&nbsp;CoinDash&nbsp;will&nbsp;offer&nbsp;its&nbsp;products&nbsp;through&nbsp;a&nbsp;unified&nbsp;platform&nbsp;designed&nbsp;with&nbsp;the&nbsp;mainstream&nbsp;user&nbsp;in&nbsp;mind.
+links:
+- CoinMarketCap: coindash
+- Email: mailto:contact@coindash.io
+- Facebook: https://www.facebook.com/coindash.io/
+- Slack: https://coindasher-slack.herokuapp.com/
+- Twitter: https://twitter.com/coindashio
+- Website: https://coindash.io/
+- Whitepaper: https://www.coindash.io/coindash-whitepaper.pdf
+name: CoinDash Token
+symbol: CDT
