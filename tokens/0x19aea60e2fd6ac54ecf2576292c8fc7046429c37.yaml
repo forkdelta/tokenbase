@@ -1,0 +1,18 @@
+---
+addr: '0x19aea60e2fd6ac54ecf2576292c8fc7046429c37'
+decimals: 18
+description: >-
+  A worldwide open source e-commerce marketplace platform that anonymously allows subscribers to pay with
+  a cryptocurrency anywhere, even when cryptocurrencies are not accepted.
+links:
+- Blog: https://medium.com/@uhub
+- Email: mailto:contact@uhub.io
+- Facebook: https://www.facebook.com/uhub.io
+- Github: https://github.com/uhubproject
+- Slack: https://uhubchat.slack.com/
+- Telegram: https://t.me/uhub_io
+- Twitter: https://twitter.com/uhub_io
+- Website: https://uhub.io/
+- Whitepaper: https://github.com/uhubproject/Uhub-WhitePaper/blob/master/EN-White-Paper.pdf
+name: UHUB
+symbol: HUB

@@ -1,0 +1,22 @@
+---
+addr: '0x94298f1e0ab2dfad6eeffb1426846a3c29d98090'
+decimals: 8
+description: >-
+  What MyBit does is enable ownership of a specific IoT asset to be easily distributed among several owners
+  (investors). With the rise of the upcoming machine economy, our vision is to have machines owned by
+  people all over the world, rather than centralized parties maintaining ownership and the resulting revenue
+  streams.
+links:
+- Bitcointalk: https://bitcointalk.org/index.php?topic=1797720.0
+- Blog: https://medium.com/@MyBit_Blog
+- CoinMarketCap: mybit-token
+- Facebook: https://www.facebook.com/MyBitDApp/
+- Github: https://github.com/MyBitDev
+- Reddit: https://www.reddit.com/user/MyBit_DApp/
+- Slack: https://slack.mybit.io/
+- Telegram: https://t.me/mybitio
+- Twitter: https://twitter.com/MyBit_DApp
+- Website: https://mybit.io/
+- Whitepaper: https://mybit.io/docs/MyBit_Whitepaper_v0.13.pdf
+name: MyBit Token
+symbol: MyB

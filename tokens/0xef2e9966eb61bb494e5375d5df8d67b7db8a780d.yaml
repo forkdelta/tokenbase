@@ -1,0 +1,12 @@
+---
+addr: '0xef2e9966eb61bb494e5375d5df8d67b7db8a780d'
+decimals: 0
+description: >-
+  Shitcoin is a revolutionary new crypto token. Read the brown paper at: <a href="https://docs.wixstatic.com/ugd/c26de8_82d48cf05a224955a7b1ab5c92323fed.pdf"
+  target="_blank">https://docs.wixstatic.com/ugd/c26de8_82d48cf05a224955a7b1ab5c92323fed.pdf</a>.
+links:
+- Email: mailto:shitoshi@shitcoin.io
+- Slack: https://shitcoin-slack-invite.herokuapp.com/
+- Website: https://www.shitcoin.io/
+name: Shitcoin
+symbol: SHIT
