@@ -2,10 +2,10 @@
 
 [![Build Status](https://travis-ci.org/forkdelta/tokenbase.svg?branch=master)](https://travis-ci.org/forkdelta/tokenbase) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/forkdelta/tokenbase/issues)
 
-**ForkDelta** is a decentralized exchange with over 700 tradable ERC20-compliant tokens. It is our business to know about tokens. The Tokenbase is the central repository of our knowledge about the tokens listed on the platform.
+**ForkDelta** is a decentralized exchange with over 700 tradable ERC20-compliant tokens. Tokenbase is our ERC20 token knowledgebase.
 
 ## Format
-Token information is stored in YAML format, one token per file, at `tokens/0xTOKENADDRESS.yaml`.
+Token information is stored in YAML format, one token per file, in `tokens/0xTOKENADDRESS.yaml`.
 
 ### Common YAML
 * ` # Comment` is a YAML comment. The hash `#` must be preceded by a space.
