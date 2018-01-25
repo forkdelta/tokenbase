@@ -2,7 +2,7 @@
 addr: '0x0b1724cc9fda0186911ef6a75949e9c0d3f0f2f3'
 decimals: 8
 description: >-
-  FILL ME IN
+  ETHERIYA: AN Ethereum Token Backed Micro & Macro Freelance Marketplace
 links:
 - Bitcointalk: https://bitcointalk.org/index.php?topic=1975694.0
 - CoinMarketCap: etheriya
@@ -11,3 +11,4 @@ links:
 - Whitepaper: https://drive.google.com/file/d/0B9nA1PpRUjmuTG4ySFUzQXhwUkU/view
 name: Etheriya
 symbol: RIYA
+

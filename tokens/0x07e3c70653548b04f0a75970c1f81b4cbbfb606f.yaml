@@ -2,7 +2,8 @@
 addr: '0x07e3c70653548b04f0a75970c1f81b4cbbfb606f'
 decimals: 18
 description: >-
-  FILL ME IN
+  Agrello provides an AI powered interface allowing you to build smart contract-based legal agreements
+  on the blockchain. No coding or legal skills required.
 links:
 - Blog: https://blog.agrello.org/
 - CoinMarketCap: agrello-delta
@@ -15,3 +16,4 @@ links:
 - Whitepaper: https://docs.agrello.org/Agrello-Self-Aware_Whitepaper-English.pdf
 name: Delta
 symbol: DLT
+

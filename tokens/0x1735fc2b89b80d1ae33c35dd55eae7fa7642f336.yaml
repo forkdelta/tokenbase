@@ -1,8 +1,7 @@
 ---
 addr: '0x1735fc2b89b80d1ae33c35dd55eae7fa7642f336'
 decimals: 18
-description: >-
-  FILL ME IN
+description: ""
 links:
 - Blog: https://medium.com/@peter.cornforth/staticoin-a-stable-digital-currency-d52477f378de
 - Email: mailto:genkifs@gmail.com
@@ -12,3 +11,4 @@ links:
 - Whitepaper: http://staticoin.com/whitepaper.pdf
 name: CAD Static
 symbol: CAD_S
+

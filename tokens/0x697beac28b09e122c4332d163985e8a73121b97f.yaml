@@ -2,7 +2,9 @@
 addr: '0x697beac28b09e122c4332d163985e8a73121b97f'
 decimals: 8
 description: >-
-  FILL ME IN
+  The Quantum Resistant Ledger (QRL) will be a first of its kind, future-proof
+  post-quantum value store and decentralized communication layer which tackles
+  the threat Quantum Computing will pose to cryptocurrencies.
 links:
 - Blog: https://medium.com/quantum-resistant-ledger
 - CoinMarketCap: quantum-resistant-ledger

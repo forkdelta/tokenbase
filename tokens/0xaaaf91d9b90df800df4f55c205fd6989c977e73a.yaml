@@ -2,7 +2,7 @@
 addr: '0xaaaf91d9b90df800df4f55c205fd6989c977e73a'
 decimals: 8
 description: >-
-  FILL ME IN
+  TKN is the underlying token of the TokenCard platform.
 links:
 - Blog: https://medium.com/@MonolithStudio
 - CoinMarketCap: tokencard

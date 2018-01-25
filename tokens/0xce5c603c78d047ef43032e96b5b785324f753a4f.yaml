@@ -1,8 +1,7 @@
 ---
 addr: '0xce5c603c78d047ef43032e96b5b785324f753a4f'
 decimals: 2
-description: >-
-  FILL ME IN
+description: ""
 links:
 - Blog: https://medium.com/e4row
 - CoinMarketCap: ether-for-the-rest-of-the-world
@@ -13,3 +12,4 @@ links:
 - Website: https://www.e4row.co.il/
 name: E4ROW
 symbol: E4ROW
+

@@ -2,7 +2,7 @@
 addr: '0xcbcc0f036ed4788f63fc0fee32873d6a7487b908'
 decimals: 8
 description: >-
-  FILL ME IN
+  Humaniq is a simple and secure mobile app, delivering financial inclusion solutions globally.
 links:
 - Blog: https://blog.humaniq.co/
 - CoinMarketCap: humaniq
@@ -16,3 +16,4 @@ links:
 - Whitepaper: https://humaniq.com/pdf/humaniq_wp_english.pdf
 name: Humaniq
 symbol: HMQ
+
