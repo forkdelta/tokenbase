@@ -15,8 +15,8 @@ links:
 - Website: http://ibtctoken.com/
 - Website: http://ibtc.fun
 notice: >-
-  Old IBTC contract. See the 
-  <a href="https://etherscan.io/address/0x0784dbabb6c6834bddfb7cfee116ba049e5dafab">new contract</a> 
-  instead.
+  <strong>Old IBTC token.</strong> See
+  <a href="https://bitcointalk.org/index.php?topic=2251334.0">bitcointalk thread</a>
+  for details.
 name: IBTC
 symbol: IBTC
