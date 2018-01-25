@@ -1,5 +1,6 @@
-from utils import *
+from requests.exceptions import ConnectionError, TooManyRedirects
 import sys
+from utils import *
 import yaml
 from yaml_utils import *
 
@@ -9,20 +10,15 @@ DEFAULT_LINK_FIELDS = frozenset((
     "Website", "Blog", "Whitepaper",
     "Twitter", "Telegram", "Reddit"))
 
-def main():
-    if len(sys.argv) >= 2:
-        addr = sys.argv[1].lower()
-        if len(sys.argv) == 3:
-            website = sys.argv[2]
-        else:
-            website = None
-    else:
-        print("Usage: script.py <token address> [website url]")
-        exit(1)
-
+def main(addr, website=None, parse_website=True, guide_mode=True):
     addr = addr.lower()
     # Gather info
-    info = get_token_info(addr)
+    try:
+        info = get_token_info(addr)
+    except:
+        print("# ERROR fetching information from Ethplorer")
+        info = {}
+
 
     etherscan_doc = get_etherscan_token_page(addr)
 
@@ -32,10 +28,9 @@ def main():
 
     notice = get_etherscan_notice(addr, html_doc=etherscan_doc)
 
-    addr_filter = lambda listing: listing["addr"] == addr
+    addr_filter = lambda listing: listing["addr"].lower() == addr.lower()
     existing_listing = next(filter(addr_filter, LISTINGS), None)
     if existing_listing:
-        print("already on forkdelta", existing_listing)
         token_guide = get_forkdelta_guide(existing_listing["name"])
         guide_website = get_fd_token_website(token_guide)
         if guide_website and dict(links).get("Website") != guide_website:
@@ -46,20 +41,24 @@ def main():
 
     metas = []
     website = dict(links).get("Website", website)
-    if website:
-        website_doc = get_website(website)
-        metas = get_website_metas(website, website_doc)
-        links += get_website_links(website, website_doc)
+    if website and parse_website:
+        try:
+            website_doc = get_website(website)
+            metas = get_website_metas(website, website_doc)
+            links += get_website_links(website, website_doc)
+        except (ConnectionError, TooManyRedirects):
+            print("Failed to fetch {} listed on {}".format(website, addr))
+
 
     # Build a listing
-    listing = dict(addr=addr, decimals=int(info["decimals"]))
+    listing = dict(addr=addr, decimals=int(info.get("decimals", -1)))
     listing.update({ k: info.get(k, "") for k in ("name", "symbol") })
 
     if existing_listing:
         if not listing["symbol"]:
             listing["symbol"] = existing_listing["name"]
-        elif listing["symbol"] != existing_listing["name"]:
-            listing["WARNING_MISMATCHING_FORKDELTA_SYMBOL"] = existing_listing["name"]
+        elif listing["symbol"] and listing["symbol"] != existing_listing["name"]:
+            listing["__FORKDELTA_CUSTOM_SYMBOL"] = existing_listing["name"]
 
     if notice is not None:
         listing["notice"] = LiteralString(notice)
@@ -69,9 +68,12 @@ def main():
     links = [(k, v) for (v, k) in dict(((v, k) for (k, v) in links)).items()]
     links = sorted(links, key=lambda p: p[0])
 
-    link_fields = set((entry[0] for entry in links))
-    missing_link_fields = DEFAULT_LINK_FIELDS - link_fields
-    placeholder_links = [(field, "ADD OR DELETE LINE") for field in missing_link_fields]
+    if guide_mode:
+        link_fields = set((entry[0] for entry in links))
+        missing_link_fields = DEFAULT_LINK_FIELDS - link_fields
+        placeholder_links = [(field, "ADD OR DELETE LINE") for field in missing_link_fields]
+    else:
+        placeholder_links = []
 
     listing.update({ "links": [{entry[0]: entry[1]} for entry in links + placeholder_links] })
 
@@ -79,8 +81,9 @@ def main():
     description_meta_filter = lambda e: e[0] in ("description", "og:description")
     if any(filter(description_meta_filter, metas)):
         # Use ljust below to keep YAML from getting double new-lines
-        description = comment_line("The following options were found")
-        description += comment_line("You may need to edit them and you MUST delete commented lines")
+        if guide_mode:
+            description += comment_line("The following options were found")
+            description += comment_line("You may need to edit them and you MUST delete commented lines")
         for (meta_name, meta_content) in filter(description_meta_filter, metas):
             if meta_content:
                 description += comment_line("From the website: {} meta tag".format(meta_name))
@@ -88,17 +91,25 @@ def main():
                 description += "\n"
 
     if guide_description:
-        if not description:
-            description = comment_line("The following options were found")
-            description += comment_line("You may need to edit them and you MUST delete commented lines")
-        description += comment_line("From the existing ForkDelta token guide")
+        if guide_mode:
+            if not description:
+                description += comment_line("The following options were found")
+                description += comment_line("You may need to edit them and you MUST delete commented lines")
+            description += comment_line("From the existing ForkDelta token guide")
         description += guide_description + "\n"
 
-    if not description:
+    if guide_mode and not description:
         description = "FILL ME IN"
 
     listing.update({ "description": LiteralString(description.strip()) })
 
-    print(yaml.dump(listing, default_flow_style=False, explicit_start=True, width=YAML_WIDTH, indent=YAML_INDENT, allow_unicode=True))
+    return yaml.dump(listing, default_flow_style=False, explicit_start=True, width=YAML_WIDTH, indent=YAML_INDENT, allow_unicode=True)
 
-main()
+if __name__ == "__main__":
+    if len(sys.argv) == 3:
+        print(main(sys.argv[1], sys.argv[2]))
+    elif len(sys.argv) == 2:
+        print(main(sys.argv[1]))
+    else:
+        print("Usage: script.py <token address> [website url]")
+        exit(1)
