@@ -1,4 +1,5 @@
 ---
+__FORKDELTA_CUSTOM_SYMBOL: IBTCOLD
 addr: '0x90c88ccd74e57e016acae8ad1eaa12ecf4c06f33'
 decimals: 18
 description: >-
@@ -13,5 +14,9 @@ links:
 - Twitter: https://twitter.com/ibtctoken
 - Website: http://ibtctoken.com/
 - Website: http://ibtc.fun
+notice: >-
+  Old IBTC contract. See the 
+  <a href="https://etherscan.io/address/0x0784dbabb6c6834bddfb7cfee116ba049e5dafab">new contract</a> 
+  instead.
 name: IBTC
 symbol: IBTC
