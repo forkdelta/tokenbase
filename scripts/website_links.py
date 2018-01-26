@@ -26,10 +26,16 @@ PATTERN = re.compile(
     r'%s(%s)' % (PREFIX, '|'.join(SITES.keys())),
     flags=re.I)
 
+def is_absolute(url):
+    from urllib.parse import urlparse
+    return bool(urlparse(url).netloc)
+
 def get_links(html_doc):
     refs = set()
     soup = BeautifulSoup(html_doc, 'html.parser')
-    for a in soup.find_all("a", href=True):
+
+    absolute_href_filter = lambda el: is_absolute(el["href"])
+    for a in filter(absolute_href_filter, soup.find_all("a", href=True)):
         link = a["href"]
         match = PATTERN.match(link)
         if match:
@@ -39,5 +45,5 @@ def get_links(html_doc):
     for ref in refs:
         matching_expr_filter = lambda expr: re.match(PREFIX + expr, ref, flags=re.I)
         matching_expr = next(filter(matching_expr_filter, SITES.keys()), None)
-        links.append((SITES[matching_expr], link))
+        links.append((SITES[matching_expr], ref))
     return links
