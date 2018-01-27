@@ -164,7 +164,7 @@ def test_link_value_uri(content, link=None):
     _verify_valid_link_entry(link)
     key, value = list(link.items())[0]
     assert is_valid_uri(value, require_scheme=True), \
-        "expected {} link value '{}' to be a valid URL".format(key, value)
+        "expected {} link '{}' to be a valid URL".format(key, value)
 
 def test_link_value_https_preferred(content, link=None):
     "link URL should use HTTPS whenever possible"
@@ -175,7 +175,7 @@ def test_link_value_https_preferred(content, link=None):
     if is_valid_uri(value, require_scheme=True):
         parsed_value = uri_reference(value)
         if parsed_value.scheme == "http":
-            raise TestWarning("URL scheme is HTTP, but HTTPS is strongly preferred")
+            raise TestWarning("URL scheme is HTTP, but HTTPS is strongly preferred: {}".format(value))
 
 def test_http_link_active(content, link=None):
     "link URL must be active"
@@ -189,11 +189,11 @@ def test_http_link_active(content, link=None):
 
     parsed_value = uri_reference(value)
     if parsed_value.scheme not in ("http", "https"):
-        raise SkipTest("{} is not an HTTP link".format(value))
+        raise SkipTest("{} {} is not an HTTP link".format(key, value))
 
     r = get(value, timeout=5.0, headers={"User-Agent": "ForkDelta Token Discovery Tests 0.1.0"})
     assert 200 <= r.status_code < 300, \
-        "expected {} to be an active link, but got {}".format(value, r.status_code)
+        "expected {} link {} to be active, but got {}".format(key, value, r.status_code)
 
 
 CONTENT_TESTS = (
@@ -247,6 +247,7 @@ def main(targets, quiet=False):
         with open(target) as f:
             content = yaml.safe_load(f.read())
 
+        print("Checking", target)
         for test in generate_tests(content):
             try:
                 retval = test(content)
@@ -255,27 +256,27 @@ def main(targets, quiet=False):
             except TestWarning as exc:
                 test_results.append((target, test, exc))
                 warnings_count += 1
-                print(target, test.__doc__, "(WARN)")
+                print("  {} (WARN: {})".format(test.__doc__, exc))
             except SkipTest as exc:
                 test_results.append((target, test, exc))
                 skip_count += 1
-                print(target, test.__doc__, "(SKIPPED: {})".format(exc))
+                print("  {} (SKIPPED: {})".format(test.__doc__, exc))
             except AssertionError as exc:
-                print(type(exc), exc)
                 test_results.append((target, test, exc))
                 failures_count += 1
-                print(target, test.__doc__, "(FAILED - {})".format(failures_count))
+                print("  {} (FAILED - {})".format(test.__doc__, failures_count))
             except Exception as exc:
-                print(type(exc), exc)
                 test_results.append((target, test, exc))
                 failures_count += 1
-                print(target, test.__doc__, "(ERROR - {})".format(failures_count))
+                print("  {} (ERROR - {})".format(test.__doc__, failures_count))
             else:
                 test_results.append((target, test, None))
-                print(target, test.__doc__)
+                # print("  {}".format(test.__doc__))
+        print("  Complete.")
 
 
-    print(len(targets), "targets,", len(CONTENT_TESTS), "tests:",
+    print(len(targets), "targets x", len(CONTENT_TESTS), "tests =",
+            len(test_results), "runs, of which:",
             failures_count, "failures,", warnings_count, "warnings,",
             skip_count, "skipped.")
 
@@ -292,7 +293,7 @@ def main(targets, quiet=False):
         elif isinstance(outcome, SkipTest):
             print("  {}) Skipped {}:".format(idx + 1, test.__name__), outcome)
         else:
-            print("  {}) Failure/Error:".format(idx + 1), outcome)
+            print("  {}) Failure/Error: {}: {}".format(idx + 1, outcome.__class__.__name__, outcome))
             print("        in {}: {}".format(test.__name__, test.__doc__))
             if not isinstance(outcome, AssertionError):
                 traceback.print_tb(outcome.__traceback__)
