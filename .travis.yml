@@ -3,6 +3,10 @@ language: python
 python: "3.6"
 install:
   - pip install yamllint
+  - pip install -r scripts/requirements.txt
 
 script:
   - yamllint -c .yamllint tokens/
+  - pwd
+  - ls
+  - find tokens -name *.yaml | xargs python scripts/test.py
