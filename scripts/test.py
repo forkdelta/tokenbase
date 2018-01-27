@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
 
 from eth_utils import is_hex_address
+import json
 from unittest import SkipTest
 import sys
 from web3 import Web3, HTTPProvider
 import yaml
 
 web3 = Web3(HTTPProvider("http://159.203.19.200:8545"))
+with open("scripts/erc20.abi.json") as erc20_abi_f:
+    ERC20_ABI = json.load(erc20_abi_f)
+
 KNOWN_LINK_TYPES = frozenset((
     'Bitcointalk', 'Blog', 'CoinMarketCap', 'Email', 'Facebook',
     'Github', 'Reddit', 'Slack', 'Telegram', 'Twitter', 'WeChat',
@@ -65,23 +69,9 @@ def test_decimals_range(content):
         "expected `decimals` to be between 0 and 18 inclusively, but got" + \
             "{:d}".format(content["decimals"])
 
-def _call_decimals(web3, addr):
-    """
-    Calls 'decimals' function on a given contract.
-    Returns integer output of the function.
-    Raises ValueError if the function does not exist.
-    """
-    method_hex = Web3.sha3(text="decimals()")[:10]
-    retval = web3.eth.call({ "to": addr, "data": method_hex })
-    if len(retval) != 66:
-        error_msg = "Contract {} does not support method".format(addr) + \
-            " `decimals()', returned '{}'".format(retval)
-        raise ValueError(error_msg)
-    return Web3.toInt(hexstr=retval)
-
 def test_decimals_equals_erc20_decimals(content):
     "decimals equals output of contract's 'decimals' function"
-    contract_decimals = _call_decimals(web3, content["addr"])
+    contract_decimals = web3.eth.contract(content["addr"], abi=ERC20_ABI).call().decimals()
     assert content["decimals"] == contract_decimals, \
         "expected decimals to be {:d}, but got {:d}".format(contract_decimals, content["decimals"])
 
@@ -100,6 +90,19 @@ def test_symbol_key_exists(content):
 def test_symbol_nonempty_string(content):
     "symbol must be a non-empty string"
     assert_nonempty_string(content, "symbol")
+
+def test_contract_erc20_totalSupply(content):
+    "token contract must support totalSupply"
+    total_supply = web3.eth.contract(content["addr"], abi=ERC20_ABI).call().totalSupply()
+    assert total_supply > 0, \
+        "expected total supply to be greater than 0, " + \
+            "but got {:d}".format(total_supply)
+
+TEST_BALANCE_ADDR = "0x1111111111111111111111111111111111111111"
+def test_contract_erc20_balanceOf(content):
+    "token contract must support balanceOf"
+    balance_of = web3.eth.contract(content["addr"], abi=ERC20_ABI).call().balanceOf(TEST_BALANCE_ADDR)
+    assert True, "passes if no exception was raised"
 
 def test_description_string(content):
     "description must be a string"
@@ -200,7 +203,6 @@ def test_http_link_active(content, link=None):
         assert 200 <= r.status_code < 300, \
             "expected {} link {} to be active, but got {}".format(key, value, r.status_code)
 
-
 CONTENT_TESTS = (
     test_addr_key_exists,
     test_addr_0x_string,
@@ -214,6 +216,8 @@ CONTENT_TESTS = (
     test_name_key_nonempty_string,
     test_symbol_key_exists,
     test_symbol_nonempty_string,
+    test_contract_erc20_totalSupply,
+    test_contract_erc20_balanceOf,
     test_description_string,
     test_description_nonempty,
     test_description_max_length,
