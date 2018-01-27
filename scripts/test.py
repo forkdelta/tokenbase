@@ -180,20 +180,25 @@ def test_link_value_https_preferred(content, link=None):
 def test_http_link_active(content, link=None):
     "link URL must be active"
     from requests import get
+    from requests.exceptions import RequestException
     from rfc3986 import is_valid_uri, uri_reference
     _verify_valid_link_entry(link)
     key, value = list(link.items())[0]
 
     if not is_valid_uri(value, require_scheme=True):
-        raise SkipTest("{} is not a valid URL".format(value))
+        return
 
     parsed_value = uri_reference(value)
     if parsed_value.scheme not in ("http", "https"):
-        raise SkipTest("{} {} is not an HTTP link".format(key, value))
+        return
 
-    r = get(value, timeout=5.0, headers={"User-Agent": "ForkDelta Token Discovery Tests 0.1.0"})
-    assert 200 <= r.status_code < 300, \
-        "expected {} link {} to be active, but got {}".format(key, value, r.status_code)
+    try:
+        r = get(value, timeout=5.0, headers={"User-Agent": "ForkDelta Token Discovery Tests 0.1.0"})
+    except RequestException as exc:
+        assert False, "error while checking {}: {}".format(value, exc)
+    else:
+        assert 200 <= r.status_code < 300, \
+            "expected {} link {} to be active, but got {}".format(key, value, r.status_code)
 
 
 CONTENT_TESTS = (
