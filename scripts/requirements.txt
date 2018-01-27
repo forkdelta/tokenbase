@@ -1,3 +1,6 @@
-pyyaml
 beautifulsoup4
-
+eth_utils
+pyyaml
+requests
+rfc3986
+web3
