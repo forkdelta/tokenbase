@@ -13,7 +13,7 @@ with open("scripts/erc20.abi.json") as erc20_abi_f:
 
 KNOWN_LINK_TYPES = frozenset((
     'Bitcointalk', 'Blog', 'CoinMarketCap', 'Email', 'Facebook',
-    'Github', 'Reddit', 'Slack', 'Telegram', 'Twitter', 'WeChat',
+    'Github', 'Linkedin', 'Reddit', 'Slack', 'Telegram', 'Twitter', 'WeChat',
     'Website', 'Whitepaper'))
 
 class TestWarning(Exception):
@@ -180,6 +180,7 @@ def test_link_value_https_preferred(content, link=None):
         if parsed_value.scheme == "http":
             raise TestWarning("URL scheme is HTTP, but HTTPS is strongly preferred: {}".format(value))
 
+USER_AGENT = "ForkDelta Token Discovery Tests 0.1.0"
 def test_http_link_active(content, link=None):
     "link URL must be active"
     from requests import get
@@ -195,8 +196,12 @@ def test_http_link_active(content, link=None):
     if parsed_value.scheme not in ("http", "https"):
         return
 
+    # Hooray.
+    if parsed_value.host.endswith("linkedin.com"):
+        raise SkipTest("linkedin.com won't let us see {} anyway".format(value))
+
     try:
-        r = get(value, timeout=5.0, headers={"User-Agent": "ForkDelta Token Discovery Tests 0.1.0"})
+        r = get(value, timeout=5.0, headers={"User-Agent": USER_AGENT})
     except RequestException as exc:
         assert False, "error while checking {}: {}".format(value, exc)
     else:
