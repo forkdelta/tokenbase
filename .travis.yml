@@ -6,7 +6,6 @@ install:
   - pip install -r scripts/requirements.txt
 
 script:
-  - yamllint -c .yamllint tokens/
-  - pwd
-  - ls
-  - find tokens -name *.yaml | xargs python scripts/test.py
+  - git diff --name-only $TRAVIS_COMMIT_RANGE | grep tokens/ | echo "Testing tokens: "
+  - git diff --name-only $TRAVIS_COMMIT_RANGE | grep tokens/ | xargs python scripts/test.py
+  - git diff --name-only $TRAVIS_COMMIT_RANGE | grep tokens/ | xargs yamllint -c .yamllint 
