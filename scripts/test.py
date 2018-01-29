@@ -201,7 +201,7 @@ def test_http_link_active(content, link=None):
         raise SkipTest("linkedin.com won't let us see {} anyway".format(value))
 
     try:
-        r = get(value, timeout=8.0, headers={"User-Agent": USER_AGENT})
+        r = get(value, timeout=30.0, headers={"User-Agent": USER_AGENT})
     except RequestException as exc:
         assert False, "error while checking {}: {}".format(value, exc)
     else:
