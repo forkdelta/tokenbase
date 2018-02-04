@@ -7,7 +7,7 @@ import sys
 from web3 import Web3, HTTPProvider
 import yaml
 
-web3 = Web3(HTTPProvider("http://159.203.19.200:8545"))
+web3 = Web3(HTTPProvider("https://api.myetherapi.com/eth"))
 with open("scripts/erc20.abi.json") as erc20_abi_f:
     ERC20_ABI = json.load(erc20_abi_f)
 
