@@ -1,0 +1,13 @@
++---
+ +addr: '0xc9be9f75df438df3ef40e4bab816bf30e3f14b50'
+ +decimals: 0
+ +description: >-
+ +  SmellyCoin is a token to let others know that they smell.
+ +  Send them to your girlfriend, wife, or any smelly friend.
+ +links:
+ +- Bitcointalk: https://bitcointalk.org/index.php?topic=2871113
+ +- Telegram: https://t.me/smellycoin
+ +- Twitter: https://twitter.com/SmellyCoin
+ +- Website: https://smellycoin.com
+ +name: SmellyCoin
+ +symbol: SMELLY
