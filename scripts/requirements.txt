@@ -1,6 +1,6 @@
 beautifulsoup4
-eth_utils
+eth_utils==0.7.4
 pyyaml
 requests
 rfc3986
-web3
+web3==3.16.4
