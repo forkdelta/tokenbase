@@ -12,9 +12,9 @@ with open("scripts/erc20.abi.json") as erc20_abi_f:
     ERC20_ABI = json.load(erc20_abi_f)
 
 KNOWN_LINK_TYPES = frozenset((
-    'Bitcointalk', 'Blog', 'CoinMarketCap', 'Email', 'Facebook',
+    'Bitcointalk', 'Blog', 'CoinMarketCap', 'Discord', 'Email', 'Facebook',
     'Github', 'Linkedin', 'Reddit', 'Slack', 'Telegram', 'Twitter', 'WeChat',
-    'Website', 'Whitepaper'))
+    'Website', 'Whitepaper', 'YouTube'))
 
 class TestWarning(Exception):
     pass
