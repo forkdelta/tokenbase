@@ -7,7 +7,7 @@ from yaml_utils import *
 LISTINGS = get_forkdelta_listings()
 
 DEFAULT_LINK_FIELDS = frozenset((
-    "Website", "Blog", "Whitepaper",
+    "Website", "Bitcointalk", "Blog", "Whitepaper",
     "Twitter", "Telegram", "Reddit"))
 
 def main(addr, website=None, parse_website=True, guide_mode=True):
