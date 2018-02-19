@@ -57,6 +57,7 @@ Links can be included to refer the user to external resources relevant to the to
 - Bitcointalk
 - Blog
 - CoinMarketCap
+- Discord
 - Email
 - Facebook
 - Github
@@ -67,6 +68,7 @@ Links can be included to refer the user to external resources relevant to the to
 - WeChat
 - Website
 - Whitepaper
+- YouTube
 
 Example:
 ```yaml
