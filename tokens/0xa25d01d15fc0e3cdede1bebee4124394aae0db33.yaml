@@ -21,5 +21,8 @@ links:
 - Twitter: https://twitter.com/FollowCoinbv
 - Website: https://followcoin.io/
 - Whitepaper: https://followcoin.io/docs/followcoin-whitepaper.pdf
+notice: >-
+ The last couple of months the Follow Coin team has been working hard to perform a token upgrade. But what does this mean? In short it means we had to rewrite the smart contract for the barebone of the Follow Coin token, to make it ‘future-proof’. It solves the transfer-issues (withdrawing, depositing and sending) that the current contract is suffering from.
+ <a href=" https://medium.com/@followcoin/follow-coin-goes-erc-223-54b23972cac6 ">Read the announcement.</a>
 name: Follow Coin
 symbol: FLLW
