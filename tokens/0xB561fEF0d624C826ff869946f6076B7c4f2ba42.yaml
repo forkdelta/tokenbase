@@ -2,17 +2,18 @@
 addr: '0xB561fEF0d624C0826ff869946f6076B7c4f2ba42'
 decimals: 7
 description: >-
-  Criptocurrencies with values. The unique feature of the Seratio token (SER) is the ability to capture the financial assets,   microshares and provenance of transactions involving people, products, processes, projects and organisations.
+  Criptocurrencies with values. The unique feature of the Seratio token (SER) is the ability to capture the financial
+  assets, microshares and provenance of transactions involving people, products, processes, projects and organisations.
 links:
 - Bitcointalk: https://bitcointalk.org/index.php?topic=2136674
 - Email: mailto:blockchain.lab@cceg.org.uk
 - Facebook: https://www.facebook.com/TheCCEG/
-- Github: https://github.com/seratio/whitepaper
+- Github: https://github.com/seratio
 - Reddit: https://www.reddit.com/r/Seratio/
 - Slack: https://seratio.slack.com/
 - Telegram: https://t.me/joinchat/ECIJnw1q-Ivywj2vYFe3tw
 - Twitter: https://github.com/seratio
 - Website: https://www.seratio-coins.world/
-- Whitepaper: https://www.seratio-coins.world/Assets/other/Seratio%20Token%202017-30%20Whitepaper%206%200%20(17%20January%202018)%20v%206-23.pdf
+- Whitepaper: https://github.com/seratio/whitepaper
 name: SeratioCoin
 symbol: SER
