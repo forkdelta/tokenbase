@@ -1,5 +1,5 @@
 ---
-addr: '0xa25d01d15fc0e3cdede1bebee4124394aae0db33'
+addr: '0x0200412995f1bafef0d3f97c4e28ac2515ec1ece'
 decimals: 18
 description: >-
   Follow Coin is a new platform that wants to make the crypto world accessible to everyone. Our goal is
@@ -21,5 +21,8 @@ links:
 - Twitter: https://twitter.com/FollowCoinbv
 - Website: https://followcoin.io/
 - Whitepaper: https://followcoin.io/docs/followcoin-whitepaper.pdf
+notice: >-
+ The last couple of months the Follow Coin team has been working hard to perform a token upgrade. But what does this mean? In short it means we had to rewrite the smart contract for the barebone of the Follow Coin token, to make it ‘future-proof’. It solves the transfer-issues (withdrawing, depositing and sending) that the current contract is suffering from.
+ <a href=" https://medium.com/@followcoin/follow-coin-goes-erc-223-54b23972cac6 ">Read the announcement.</a>
 name: Follow Coin
 symbol: FLLW
