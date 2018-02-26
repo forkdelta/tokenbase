@@ -10,6 +10,7 @@ DEFAULT_LINK_FIELDS = frozenset((
     "Website", "Bitcointalk", "Blog", "Whitepaper",
     "Twitter", "Telegram", "Reddit"))
 
+
 def main(addr, website=None, parse_website=True, guide_mode=True):
     addr = addr.lower()
     # Gather info
@@ -18,7 +19,6 @@ def main(addr, website=None, parse_website=True, guide_mode=True):
     except:
         print("# ERROR fetching information from Ethplorer")
         info = {}
-
 
     etherscan_doc = get_etherscan_token_page(addr)
 
@@ -49,10 +49,9 @@ def main(addr, website=None, parse_website=True, guide_mode=True):
         except (ConnectionError, TooManyRedirects):
             print("Failed to fetch {} listed on {}".format(website, addr))
 
-
     # Build a listing
     listing = dict(addr=addr, decimals=int(info.get("decimals", -1)))
-    listing.update({ k: info.get(k, "") for k in ("name", "symbol") })
+    listing.update({k: info.get(k, "") for k in ("name", "symbol")})
 
     if existing_listing:
         if not listing["symbol"]:
@@ -62,7 +61,6 @@ def main(addr, website=None, parse_website=True, guide_mode=True):
 
     if notice is not None:
         listing["notice"] = LiteralString(notice)
-
 
     # Get a set of unique links
     links = [(k, v) for (v, k) in dict(((v, k) for (k, v) in links)).items()]
@@ -75,7 +73,7 @@ def main(addr, website=None, parse_website=True, guide_mode=True):
     else:
         placeholder_links = []
 
-    listing.update({ "links": [{entry[0]: entry[1]} for entry in links + placeholder_links] })
+    listing.update({"links": [{entry[0]: entry[1]} for entry in links + placeholder_links]})
 
     description = ""
     description_meta_filter = lambda e: e[0] in ("description", "og:description")
@@ -101,9 +99,11 @@ def main(addr, website=None, parse_website=True, guide_mode=True):
     if guide_mode and not description:
         description = "FILL ME IN"
 
-    listing.update({ "description": LiteralString(description.strip()) })
+    listing.update({"description": LiteralString(description.strip())})
 
-    return yaml.dump(listing, default_flow_style=False, explicit_start=True, width=YAML_WIDTH, indent=YAML_INDENT, allow_unicode=True)
+    return yaml.dump(listing, default_flow_style=False, explicit_start=True, width=YAML_WIDTH, indent=YAML_INDENT,
+                     allow_unicode=True)
+
 
 if __name__ == "__main__":
     if len(sys.argv) == 3:

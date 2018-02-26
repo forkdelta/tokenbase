@@ -26,9 +26,11 @@ PATTERN = re.compile(
     r'%s(%s)' % (PREFIX, '|'.join(SITES.keys())),
     flags=re.I)
 
+
 def is_absolute(url):
     from urllib.parse import urlparse
     return bool(urlparse(url).netloc)
+
 
 def get_links(html_doc):
     refs = set()
