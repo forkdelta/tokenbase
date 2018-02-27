@@ -76,9 +76,9 @@ def main(addr, website=None, parse_website=True, guide_mode=True):
 
     listing.update({"links": [{entry[0]: entry[1]} for entry in links + placeholder_links]})
 
-    logo = get_logo_from_website(website, html_doc=website_doc)
-    if logo:
-        listing.update({"logo": logo})
+    logos = get_logo_from_website(website, html_doc=website_doc)
+    if logos:
+        listing.update({"logos": logos})
 
     description = ""
     description_meta_filter = lambda e: e[0] in ("description", "og:description")
