@@ -41,6 +41,7 @@ def main(addr, website=None, parse_website=True, guide_mode=True):
 
     metas = []
     website = dict(links).get("Website", website)
+    website_doc = None
     if website and parse_website:
         try:
             website_doc = get_website(website)
@@ -74,6 +75,10 @@ def main(addr, website=None, parse_website=True, guide_mode=True):
         placeholder_links = []
 
     listing.update({"links": [{entry[0]: entry[1]} for entry in links + placeholder_links]})
+
+    logo = get_logo_from_website(website, html_doc=website_doc)
+    if logo:
+        listing.update({"logo": logo})
 
     description = ""
     description_meta_filter = lambda e: e[0] in ("description", "og:description")
