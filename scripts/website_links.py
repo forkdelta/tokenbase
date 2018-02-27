@@ -49,3 +49,11 @@ def get_links(html_doc):
         matching_expr = next(filter(matching_expr_filter, SITES.keys()), None)
         links.append((SITES[matching_expr], ref))
     return links
+
+
+def get_absolute_url(base_url, relative_url):
+    try:
+        from urlparse import urljoin  # Python2
+    except ImportError:
+        from urllib.parse import urljoin  # Python3
+    return urljoin(base_url, relative_url)
