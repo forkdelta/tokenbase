@@ -1,6 +1,8 @@
 import json
 import requests
 
+from website_links import get_absolute_url
+
 REQUESTS_USERAGENT = 'ForkDelta Token Discovery 0.0.1'
 
 
@@ -204,3 +206,43 @@ def get_website_links(url, html_doc=None):
         html_doc = get_website(url)
 
     return get_links(html_doc)
+
+
+def get_logo_from_website(website_url, html_doc=None):
+    """
+    Scrape token logo url from its website
+    :param website_url: website token url 
+    :param html_doc: specific HTML code
+    :return: list of token logo with different sizes
+    """
+    from bs4 import BeautifulSoup
+
+    if not html_doc:
+        html_doc = get_request(website_url, as_json=False)
+
+    soup = BeautifulSoup(html_doc, 'html.parser')
+
+    logo = {}
+    favicon = soup.find("link", rel="shortcut icon")
+    if favicon:
+        logo.update({"favicon": get_absolute_url(website_url, favicon.get("href"))})
+        logo.update({"default": logo.get("favicon")})
+
+    md_icon = soup.find("link", rel="apple-touch-icon")
+    if md_icon:
+        logo.update({"md": get_absolute_url(website_url, md_icon.get("href"))})
+        logo.update({"default": logo.get("md")})
+
+    sizes = []
+    for link in soup.find_all("link", {'rel': ['icon', '']}):
+        if link.get("sizes"):
+            sizes.append({link.get("sizes"): get_absolute_url(website_url, link.get("href"))})
+            if logo.get("default") is None:
+                logo.update({"default": get_absolute_url(website_url, link.get("href"))})
+        else:
+            continue
+
+    if len(sizes) > 0:
+        logo.update({"sizes": sizes})
+
+    return logo if len(logo) > 0 else None
