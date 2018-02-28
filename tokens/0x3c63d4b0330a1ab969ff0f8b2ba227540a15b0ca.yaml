@@ -1,5 +1,5 @@
 ---
-addr: '0x3C63d4b0330a1AB969fF0F8B2ba227540a15b0cA'
+addr: '0x3c63d4b0330a1ab969ff0f8b2ba227540a15b0ca'
 decimals: 18
 name: Span Coin
 symbol: SPAN
@@ -10,5 +10,5 @@ links:
 - Facebook: https://www.facebook.com/Spancoin/
 - Telegram: https://t.me/Spancoin
 - Twitter: https://twitter.com/Spancoin
-- Website: www.span-coin.com
-- Whitepaper: www.span-coin.com/SpanCoinWhitepaper.pdf
+- Website: https://span-coin.com/
+- Whitepaper: https://span-coin.com/SpanCoinWhitepaper.pdf
