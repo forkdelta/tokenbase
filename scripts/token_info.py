@@ -76,7 +76,9 @@ def main(addr, website=None, parse_website=True, guide_mode=True):
 
     listing.update({"links": [{entry[0]: entry[1]} for entry in links + placeholder_links]})
 
-    logos = get_logo_from_website(website, html_doc=website_doc)
+    token_name = [item for item in links if "CoinMarketCap" in item]
+    twitter_profile = [item for item in links if "Twitter" in item]
+    logos = get_token_logo(website, website_doc=website_doc, token_name=token_name, twitter_profile=twitter_profile)
     if logos:
         listing.update({"logos": logos})
 
