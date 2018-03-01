@@ -1,1 +1,15 @@
-
+---
+addr: '0x38c36d3faab64c0770af26cc6ee95d91312bc53c.yaml'
+decimals: 18
+description: >-
+  BABB is an open source, secentralised banking platform. Access to a bank account for P2P financial services for anyone in the world.
+links:
+- CoinMarketCap: bax
+- Reddit: https://www.reddit.com/r/STOX/
+- Telegram: https://t.me/joinchat/E7lsBw5BqFHVEz1etGm9ww
+- Twitter: https://twitter.com/getbabb
+- Website: https://getbabb.com/
+- Website: https://getbabb.com
+- Whitepaper: https://resources.getbabb.com/whitepapers/en/babb-whitepaper.pdf
+name: BABB
+symbol: BAX
