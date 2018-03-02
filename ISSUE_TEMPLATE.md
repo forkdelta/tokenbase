@@ -8,9 +8,11 @@ Contract address:
 
 Issuer's official website:
 
-Official contract address confirmation (MUST be linked from official website):
+Official contract address confirmation:
+<!-- Contract address confirmation MUST be linked from the official website and MUST be visible publicly. It CANNOT be an Etherscan.io link. If the confirmation is not visible immediately, include an explanation of how to find it. -->
 
-A link to a third-party review or discussion of the token, like an established ICO review blog: 
+A link to a third-party review or discussion of the token:
+<!-- Reviews must come from a well-trusted third party. BitcoinTalk.org threads are acceptable, if they have significant community discussion of the project/token. Must not be project's Telegram or other social channel. -->
 
 
 Description:
