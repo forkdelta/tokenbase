@@ -33,6 +33,16 @@ def assert_nonempty_string(dictionary, key):
     assert len(dictionary[key]) > 0, \
         "expected {} to be a non-empty".format(key)
 
+def test_file_extension_yaml(filename, content):
+    "file extension must be .yaml"
+    assert filename.endswith(".yaml"), "expected file extension to be .yaml"
+
+def test_filename_match_contract(filename, content):
+    "filename must be match the contract address in the file"
+    from os.path import basename
+    assert filename.startswith("tokens/"), "expected file to be in tokens folder"
+    assert basename(filename).startswith(content["addr"]), "expected filename to match contract address"
+
 def test_addr_key_exists(content):
     "addr must be present"
     assert_key_in_dict(content, "addr")
@@ -208,6 +218,10 @@ def test_http_link_active(content, link=None):
         assert 200 <= r.status_code < 300, \
             "expected {} link {} to be active, but got {}".format(key, value, r.status_code)
 
+FILE_TESTS = (
+    test_file_extension_yaml,
+    test_filename_match_contract
+)
 CONTENT_TESTS = (
     test_addr_key_exists,
     test_addr_0x_string,
@@ -238,7 +252,12 @@ PER_LINK_TESTS = (
 )
 
 from functools import partial, update_wrapper
-def generate_tests(content):
+def generate_tests(target, content):
+    for test in FILE_TESTS:
+        partial_test = partial(test, target)
+        update_wrapper(partial_test, test)
+        yield partial_test
+
     for test in CONTENT_TESTS:
         yield test
 
@@ -258,11 +277,15 @@ def main(targets, quiet=False):
     failures_count = 0
 
     for target in targets:
-        with open(target) as f:
-            content = yaml.safe_load(f.read())
+        try:
+            with open(target) as f:
+                content = yaml.safe_load(f.read())
+        except FileNotFoundError:
+            print("File not found: {}".format(target))
+            continue
 
         print("Checking", target)
-        for test in generate_tests(content):
+        for test in generate_tests(target, content):
             try:
                 retval = test(content)
             except (KeyboardInterrupt, SystemExit):
