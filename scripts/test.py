@@ -258,8 +258,12 @@ def main(targets, quiet=False):
     failures_count = 0
 
     for target in targets:
-        with open(target) as f:
-            content = yaml.safe_load(f.read())
+        try:
+            with open(target) as f:
+                content = yaml.safe_load(f.read())
+        except FileNotFoundError:
+            print("File not found: {}".format(target))
+            continue
 
         print("Checking", target)
         for test in generate_tests(content):
