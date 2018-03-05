@@ -193,7 +193,7 @@ def test_link_value_https_preferred(content, link=None):
 USER_AGENT = "ForkDelta Token Discovery Tests 0.1.0"
 def test_http_link_active(content, link=None):
     "link URL must be active"
-    from requests import get
+    import cfscrape
     from requests.exceptions import RequestException
     from rfc3986 import is_valid_uri, uri_reference
     _verify_valid_link_entry(link)
@@ -211,7 +211,7 @@ def test_http_link_active(content, link=None):
         raise SkipTest("linkedin.com won't let us see {} anyway".format(value))
 
     try:
-        r = get(value, timeout=30.0, headers={"User-Agent": USER_AGENT})
+        r = cfscrape.create_scraper().get(value, timeout=30.0, headers={"User-Agent": USER_AGENT})
     except RequestException as exc:
         assert False, "error while checking {}: {}".format(value, exc)
     else:
