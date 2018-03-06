@@ -6,13 +6,13 @@ description: >-
   post-quantum value store and decentralized communication layer which tackles
   the threat Quantum Computing will pose to cryptocurrencies.
 links:
-- Blog: https://medium.com/quantum-resistant-ledger
-- CoinMarketCap: quantum-resistant-ledger
+- Blog: https://medium.com/the-quantum-resistant-ledger
+- CoinMarketCap: https://coinmarketcap.com/currencies/quantum-resistant-ledger/
 - Email: mailto:info@theqrl.org
 - Github: https://github.com/theQRL
-- Slack: https://qr-ledger.slack.com/
+- Discord: https://discord.gg/BheKAZb
 - Twitter: https://twitter.com/qrledger
 - Website: https://theqrl.org/
-- Whitepaper: https://github.com/theQRL/QRL/blob/master/QRL_whitepaper.pdf
-name: QRL
+- Whitepaper: https://github.com/theQRL/Whitepaper/blob/master/QRL_whitepaper.pdf
+name: Quantum Resistant Ledger
 symbol: QRL
