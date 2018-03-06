@@ -1,11 +1,16 @@
 ---
-addr: '0x4dfd2a190ece60e12977942c858a70644e4b18dd'
-decimals: 2
+addr: '0x40caa728bb4bafa56f38a58623a12fbe6c90209d'
+decimals: 0
 description: >-
-  GINNI (GNI) is a token specialising in Mining and FASTcoin ATM technology
-  
+  The EUCoin will raise funds to make investments in ecological and humanitarian projects in the EU
+  and its influence area. All projects where the institutions fail to deliver. Let's create a better world
+  together, without political or economical motives, but with humanitarian and ecological purposes.
 links:
-- Website: http://www.minersatwork.com
-
+- Bitcointalk: https://bitcointalk.org/index.php?topic=2374429.0
+- Facebook: https://www.facebook.com/minersatwork
+- Twitter: https://twitter.com/minersatwork
+- Website: https://minersatwork.com
+- Ethplorer link: https://ethplorer.io/address/0x4dfd2a190ece60e12977942c858a70644e4b18dd
+- Independent report: https://icorating.com/analytics/basic/minersatwork-basic-review/
 name: GINNI
 symbol: GNI
