@@ -1,10 +1,11 @@
 ---
+__FORKDELTA_CUSTOM_SYMBOL: COSSOLD
 addr: '0x65292eeadf1426cd2df1c4793a3d7519f253913b'
 decimals: 18
 description: >-
   A token with a wide variety of features
 links:
-- CoinMarketCap: coss
+- CoinMarketCap: https://coinmarketcap.com/currencies/coss/
 - Email: mailto:support@coss.io
 - Website: https://coss.io/
 - Whitepaper: https://coss.io/documents/coss-whitepaper-v3.pdf
