@@ -9,5 +9,9 @@ links:
 - Email: mailto:support@coss.io
 - Website: https://coss.io/
 - Whitepaper: https://coss.io/documents/coss-whitepaper-v3.pdf
+notice: >-
+  <strong>This is a deprecated token.</strong> You can read about COSS token
+  reissuance here
+  <a href="https://coss.io/coss-token-update">https://coss.io/coss-token-update.</a>
 name: COSS
 symbol: COSS
