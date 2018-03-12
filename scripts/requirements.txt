@@ -12,6 +12,7 @@ pycryptodome==3.4.11
 pylru==1.0.9
 pysha3==1.0.2
 requests==2.18.4
+cfscrape==1.9.4
 rfc3986==1.1.0
 rlp==0.6.0
 semantic-version==2.6.0
