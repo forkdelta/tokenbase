@@ -1,0 +1,13 @@
+---
+addr: '0x62191e09fa1f0ebcad7e10dab011c2393d7315aa'
+decimals: 18
+description: >-
+  You can't eat pods or coins but you can eat PodCoin: The first 100% theoretically edible crypto token. With zero sugar, zero fat, and zero meaningful contributions to society, this token clocks in at a whopping no calories! Pick your own forbidden fruit straight off the blockchain. YUM! YUM! YUM!
+links:
+- Website: http://podcoin.info/
+- Github: https://github.com/PodCoin/
+- Logo (SVG): http://podcoin.info/assets/images/podcoin.svg
+- Logo (PNG): http://podcoin.info/assets/images/podcoin-28.png
+- Etherscan: https://etherscan.io/address/0x62191e09fa1f0ebcad7e10dab011c2393d7315aa
+name: PodCoin
+symbol: P☯D
