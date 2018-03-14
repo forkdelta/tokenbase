@@ -3,10 +3,8 @@ addr: '0x9375f79b3c186e9cc380f9d5890110e21bf0f04d'
 decimals: 18
 description: >-
   Provides a hassle free way of making payments or rather we say your time saver
-  E-WALLET Token is a ERC20 token smart contract come with a number of functions to allow 
-  users to find out the balances of accounts as well as to transfer them from one account to another.
 links:
-- Email: support@ewallet-token.com
+- Email: mailto: support@ewallet-token.com
 - Facebook: https://www.facebook.com/E-Wallet-174129063347615/
 - Telegram: https://t.me/ewallet_token
 - Blog: https://medium.com/e-wallet-token/e-wallet-token-3cbb95e87dd
