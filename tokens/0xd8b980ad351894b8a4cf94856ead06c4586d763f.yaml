@@ -1,0 +1,16 @@
+---
+addr: '0xd8b980ad351894b8a4cf94856ead06c4586d763f'
+decimals: 18
+description: >-
+  BitSense Token is erc20 token based on the Ethereum network. It is the native currency of the BitSense platform.
+  It acts as means of exchange of goods and services and as the central point between members and advertisers.
+  BitSense is a decentralized platform for advertisers, businesses and members. My vision of BitSense is to create
+  a simple ecosystem for everyday users who will be able to earn cryptocurrency/fiat by simply watching daily ads
+  or doing simple tasks. Money they will earn will come from the people advertising their business.
+links:
+- Website: https://www.bitsense.club/
+- Bitcointalk: https://bitcointalk.org/index.php?topic=3013099
+- Twitter: https://twitter.com/bitsenseproject
+- Facebook: https://www.facebook.com/bitsenseproject
+name: BitSense Token
+symbol: BST
