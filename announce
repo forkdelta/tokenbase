@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "=== Discord ==="$'\r' > announcements.txt
+git diff --name-only master -- tokens/ | xargs python scripts/prep_announce.py discord >> announcements.txt
+echo $'\r' >> announcements.txt
+echo "=== Github Response ==="$'\r' >> announcements.txt
+git diff --name-only master -- tokens/ | xargs python scripts/prep_announce.py github_response >> announcements.txt
+echo $'\r' >> announcements.txt
+echo "=== Twitter ==="$'\r' >> announcements.txt
+git diff --name-only master -- tokens/ | xargs python scripts/prep_announce.py twitter >> announcements.txt
+echo $'\r' >> announcements.txt
+echo "=== Telegram ==="$'\r' >> announcements.txt
+git diff --name-only master -- tokens/ | xargs python scripts/prep_announce.py telegram >> announcements.txt
+echo $'\r' >> announcements.txt
+echo "=== Reddit ==="$'\r' >> announcements.txt
+git diff --name-only master -- tokens/ | xargs python scripts/prep_announce.py reddit >> announcements.txt

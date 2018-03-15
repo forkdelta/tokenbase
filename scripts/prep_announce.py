@@ -123,7 +123,7 @@ def discord_style(token_info):
     """
     **Blah Token $BLAH** by https://blah.com
 
-    https://forkdelta.github.io/#!/trade/BLAH-ETH
+    <https://forkdelta.github.io/#!/trade/BLAH-ETH>
     """
 
     website = get_link(token_info, "Website")
@@ -135,7 +135,7 @@ def discord_style(token_info):
     if "token" not in token_name.lower():
         token_name += " Token"
 
-    return "**{token_name} ${symbol}** by {website}  \nhttps://forkdelta.github.io/#!/trade/{symbol}-ETH".format(
+    return "**{token_name} ${symbol}** by {website}  \n<https://forkdelta.github.io/#!/trade/{symbol}-ETH>".format(
         token_name=token_name, symbol=symbol, website=website
     )
 
@@ -165,7 +165,7 @@ STYLE_TO_FUNC = {
 def main(style, files):
     announcements = []
     for infile in files:
-        with open(infile) as f:
+        with open(infile, encoding="utf8") as f:
             token_info = yaml.safe_load(f.read())
         announcements.append(STYLE_TO_FUNC[style]["each"](token_info))
 
