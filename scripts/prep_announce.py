@@ -1,5 +1,6 @@
 from urllib.parse import urlparse
 import yaml
+import os.path
 
 def get_link(token_info, link_key):
     if "links" not in token_info:
@@ -165,9 +166,10 @@ STYLE_TO_FUNC = {
 def main(style, files):
     announcements = []
     for infile in files:
-        with open(infile, encoding="utf8") as f:
-            token_info = yaml.safe_load(f.read())
-        announcements.append(STYLE_TO_FUNC[style]["each"](token_info))
+        if os.path.isfile(infile):
+            with open(infile, encoding="utf8") as f:
+                token_info = yaml.safe_load(f.read())
+            announcements.append(STYLE_TO_FUNC[style]["each"](token_info))
 
     wrap_style = STYLE_TO_FUNC[style]["wrap"] if "wrap" in STYLE_TO_FUNC[style] else print_all_wrap
     wrap_style(announcements)
