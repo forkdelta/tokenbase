@@ -70,11 +70,9 @@ def get_fd_token_description(guide_contents):
     return None
 
 def get_website(url):
-    import requests
+    import cfscrape
 
-    r = requests.get(url, headers={'User-Agent': REQUESTS_USERAGENT})
-    # When debugging website encoding issues…
-    # print(r.headers['content-type'], r.encoding, r.apparent_encoding)
+    r = cfscrape.create_scraper().get(url, headers={'User-Agent': REQUESTS_USERAGENT})
 
     if r.apparent_encoding.lower().startswith("utf"):
         r.encoding = r.apparent_encoding
