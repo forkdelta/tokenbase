@@ -123,6 +123,7 @@ def telegram_style(token_info):
 def discord_style(token_info):
     """
     **Blah Token $BLAH** by <https://blah.com>
+    >
 
     <https://forkdelta.github.io/#!/trade/BLAH-ETH>
     """
@@ -136,8 +137,10 @@ def discord_style(token_info):
     if "token" not in token_name.lower():
         token_name += " Token"
 
-    return "**{token_name} ${symbol}** by <{website}>  \n<https://forkdelta.github.io/#!/trade/{symbol}-ETH>".format(
-        token_name=token_name, symbol=symbol, website=website
+    description_quote = "> {}".format("\n> ".join(token_info.get("description", "").split("\n")))
+
+    return "**{token_name} ${symbol}** by <{website}>  \n{description}  \n<https://forkdelta.github.io/#!/trade/{symbol}-ETH>".format(
+        token_name=token_name, description=description_quote, symbol=symbol, website=website
     )
 
 
