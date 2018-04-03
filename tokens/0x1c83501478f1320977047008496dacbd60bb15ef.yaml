@@ -1,0 +1,29 @@
+---
+addr: '0x1c83501478f1320977047008496dacbd60bb15ef'
+decimals: 18
+description: >-
+  Digitex is a commission-free futures exchange with its own native cryptocurrency, the DGTX token.
+  Traders speculate on the price of Bitcoin against the US dollar, but their trading profits and
+  losses are paid out in DGTX tokens. This means that traders need DGTX tokens to enter a trade, and
+  this creates demand for DGTX tokens from traders.
+
+  Digitex covers the cost of running the exchange by creating a small number of new tokens each year
+  instead of charging transaction fees on trades. Commission-free futures markets on a stable, fast
+  and secure trading platform will attract large numbers of traders who must buy DGTX tokens to
+  participate, creating increased demand for DGTX tokens that offsets the small inflationary cost of
+  creating new tokens.
+links:
+- Bitcointalk: https://bitcointalk.org/index.php?topic=2649724.0
+- Blog: https://medium.com/digitex-futures
+- Email: mailto:info@digitexfutures.com
+- Facebook: https://www.facebook.com/DigitexFutures/
+- Github: https://github.com/DigitexFutures
+- Github: https://github.com/smartdec
+- Linkedin: https://www.linkedin.com/company/digitex-futures-exchange/
+- Reddit: https://www.reddit.com/r/DigitexFutures/
+- Telegram: https://t.me/digitexfutureschat
+- Twitter: https://twitter.com/DigitexFutures
+- Website: https://digitexfutures.com/
+- Whitepaper: https://www.digitexfutures.com/whitepaper/Digitex-Whitepaper.v.1.1.pdf
+name: DigitexFutures
+symbol: DGTX
