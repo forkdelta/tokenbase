@@ -1,0 +1,18 @@
+---
+addr: '0xc1ec40b714281519ea367eb06429d1701ed18b5f'
+decimals: 18
+description: >-
+  Anonymizer Ethereum (ATH) uses advanced cryptographic techniques, namely
+  zero-knowledge proofs, to guarantee the validity of transactions without
+  revealing additional information about them. The ether or tokens do not get out
+  of your control and are on your balance in a smart contract. Only you have
+  access to managing these balances!
+links:
+- Bitcointalk: https://bitcointalk.org/index.php?topic=3022988.0
+- Email: mailto:admin@satoshi.team
+- Telegram: https://t.me/SatoshiTeamOfficial
+- Twitter: https://twitter.com/SatoshiTeam
+- Website: https://satoshi.team
+- Whitepaper: https://satoshi.team/WP-EN.pdf
+name: Ethereum Anonymizer
+symbol: ATH
