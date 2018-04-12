@@ -1,0 +1,11 @@
+---
+addr: '0xe5eb1a6675db0f3dd9421c46f26f88325416fd4c'
+decimals: 8
+description: >-
+  The ALN tokens are used as rewards points for our products and services.
+  Existing members that have rewards points will have their points converted into tokens.
+  Then new rewards points will automatically be valued in Allysian tokens.
+links:
+- Website: https://allysian.com/
+name: Allysian Token
+symbol: ALN
