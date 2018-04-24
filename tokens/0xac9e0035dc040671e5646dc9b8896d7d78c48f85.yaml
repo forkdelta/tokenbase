@@ -1,5 +1,5 @@
 ---
-addr: '0xAC9E0035dC040671E5646dc9b8896d7D78C48F85'
+addr: '0xac9e0035dc040671e5646dc9b8896d7d78c48f85'
 decimals: 18
 description: >-
   Hint is an AI-commerce technology integrated into digital or voice assistants built on Hint platform; 
@@ -18,4 +18,3 @@ links:
 - Whitepaper: https://hint.to/wp-content/uploads/2018/01/Hint_Wp_latest.pdf
 name: Hint
 symbol: HINT
-
