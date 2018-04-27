@@ -5,6 +5,7 @@ import json
 from unittest import SkipTest
 import sys
 from web3 import Web3, HTTPProvider
+from web3.exceptions import BadFunctionCallOutput
 import yaml
 
 web3 = Web3(HTTPProvider("https://api.myetherapi.com/eth"))
@@ -81,7 +82,15 @@ def test_decimals_range(content):
 
 def test_decimals_equals_erc20_decimals(content):
     "decimals equals output of contract's 'decimals' function"
-    contract_decimals = web3.eth.contract(content["addr"], abi=ERC20_ABI).call().decimals()
+    try:
+        contract_decimals = web3.eth.contract(content["addr"], abi=ERC20_ABI).call().decimals()
+    except BadFunctionCallOutput as exception:
+        try:
+            # Try `DECIMALS` as a backup
+            contract_decimals = web3.eth.contract(content["addr"], abi=ERC20_ABI).call().DECIMALS()
+        except BadFunctionCallOutput:
+            raise exception # Raise original: we're here because `decimals` is not defined
+
     assert content["decimals"] == contract_decimals, \
         "expected decimals to be {:d}, but got {:d}".format(contract_decimals, content["decimals"])
 

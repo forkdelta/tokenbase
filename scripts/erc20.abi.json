@@ -97,6 +97,21 @@
       "inputs":[
 
       ],
+      "name":"DECIMALS",
+      "outputs":[
+         {
+            "name":"",
+            "type":"uint8"
+         }
+      ],
+      "payable":false,
+      "type":"function"
+   },
+   {
+      "constant":true,
+      "inputs":[
+
+      ],
       "name":"version",
       "outputs":[
          {
