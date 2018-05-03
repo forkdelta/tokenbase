@@ -1,0 +1,18 @@
+---
+addr: '0xefbd6d7def37ffae990503ecdb1291b2f7e38788'
+decimals: 18
+description: >-
+  While EOS has developed a powerful infrastructure for Blockchain Applications, the
+  Governance Structure and Block Producer ownership model leads to highly manipulated
+  compensation and hinders development of the EOS community. Evolution is a community driven adaptation of the EOS open source software.
+  Evolution structures votes and evenly distributes tokens to ensure true decentralization.
+links:
+- Blog: https://medium.com/@evolutionos/
+- Email: mailto:casey@evolutionos.com
+- Github: https://github.com/EvolutionOS
+- Reddit: https://www.reddit.com/r/EvolutionOS/
+- Slack: https://evolutionos.slack.com/
+- Telegram: https://t.me/evolutionos/
+- Website: https://www.evolutionos.com/
+name: Evolution
+symbol: Evo
