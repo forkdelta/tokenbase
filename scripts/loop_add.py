@@ -18,6 +18,7 @@ for (token_addr, website_url, issue_number) in tokens_to_add:
     with open(outfile) as f:
         token_info = yaml.safe_load(f.read())
 
-    commit_msg = "List {symbol} {name}\n\nhttps://etherscan.io/token/{addr}\nCloses #{issue_number}".format(**token_info, issue_number=issue_number)
+    commit_msg = "Add {symbol} {name}\n\nhttps://etherscan.io/token/{addr}\nCloses #{issue_number}".format(
+        **token_info, issue_number=issue_number)
     call(["git", "add", outfile])
     call(["git", "commit", "-m", commit_msg, "--", outfile])
