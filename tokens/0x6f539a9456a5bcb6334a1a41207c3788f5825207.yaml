@@ -1,5 +1,4 @@
 ---
-__FORKDELTA_CUSTOM_SYMBOL: OHNI
 addr: '0x6f539a9456a5bcb6334a1a41207c3788f5825207'
 decimals: 18
 description: >-
@@ -7,8 +6,8 @@ description: >-
 links:
 - Email: mailto:info@ohni.us
 - Twitter: https://twitter.com/OhniOfficial
+- Telegram: https://T.me/OhniGroup
 - Website: http://ohni.us
-- Website: http://ohni.us/
 - Whitepaper: http://ohni.us/whitepaper.pdf
 name: Ohni
 symbol: OHNI
