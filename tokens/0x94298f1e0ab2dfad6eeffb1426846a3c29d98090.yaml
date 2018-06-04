@@ -1,4 +1,5 @@
 ---
+__FORKDELTA_CUSTOM_SYMBOL: MyB_OLD
 addr: '0x94298f1e0ab2dfad6eeffb1426846a3c29d98090'
 decimals: 8
 description: >-
@@ -8,15 +9,14 @@ description: >-
   streams.
 links:
 - Bitcointalk: https://bitcointalk.org/index.php?topic=1797720.0
-- Blog: https://medium.com/@MyBit_Blog
-- CoinMarketCap: mybit-token
 - Facebook: https://www.facebook.com/MyBitDApp/
-- Github: https://github.com/MyBitDev
 - Reddit: https://www.reddit.com/user/MyBit_DApp/
-- Slack: https://slack.mybit.io/
 - Telegram: https://t.me/mybitio
 - Twitter: https://twitter.com/MyBit_DApp
 - Website: https://mybit.io/
-- Whitepaper: https://mybit.io/docs/MyBit_Whitepaper_v0.13.pdf
+notice: >-
+  <strong>This token is obsolete.</strong> Refer to the token upgrade
+  announcement for more details:
+  <a href="https://medium.com/mybit-dapp/as-we-are-on-the-brink-of-entering-mybits-new-era-we-have-a-very-important-announcement-to-make-a4cda1cd6956">https://medium.com/mybit-dapp/as-we-are-on-the-brink-of-entering-mybits-new-era-we-have-a-very-important-announcement-to-make-a4cda1cd6956</a>
 name: MyBit Token
 symbol: MyB
