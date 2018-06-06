@@ -1,0 +1,21 @@
+---
+addr: '0xcd56d2ab02c33bda7b687375268f9d874cc34ca3'
+decimals: 18
+description: >-
+  Pycoin is a privacy preserving zero-knowledge protocol-based decentralized platform for writing, testing and
+  deploying mathematically verifiable cyber contracts in Python language that behave exactly as intended.Unlike
+  Ethereum smart contracts with a history of repeated hacks and stolen funds, hundreds and millions of dollars, Pycoin
+  ensures that no run time errors or intentional/unintentional bugs can be used as exploits to steal funds and corrupt
+  Pycoin cyber contracts. Pycoin can be also used as a platform for launching a number of next generation
+  decentralized applications such as scalable decentralized exchanges(DEXs), automated hedge funds and darkpools.
+links:
+- Bitcointalk: https://bitcointalk.org/index.php?topic=2932429.0
+- Email: mailto:info@pycoin.io
+- Github: https://github.com/CLRPL/Pycoin
+- Slack: https://discordapp.com/invite/jBwyvrV
+- Telegram: https://t.me/joinchat/AAAAAELD7jciV2TkouwTBA
+- Twitter: https://twitter.com/PycoinOfficial
+- Website: http://www.pycoin.io/
+- Whitepaper: http://www.pycoin.io/static/whitepaper.pdf
+name: Pycoin
+symbol: Pyc
