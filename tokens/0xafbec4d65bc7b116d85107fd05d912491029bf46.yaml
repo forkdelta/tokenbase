@@ -1,14 +1,14 @@
-+---
-+addr: '0xafbec4d65bc7b116d85107fd05d912491029bf46'
-+decimals: 18
-+description: >-
-+  Arbitraging is an arbitrage trading company that specializes in creating sophisticated algorithms, is called ARBITRAGE
-+links:
-+- Website: https://www.arbitraging.co/
-+- Email: mailto:arbitraging@arbitraging.co
-+- Telegram: https://t.me/arbofficial
-+- Twitter: https://twitter.com/arbitragingco
-+- Facebook: https://web.facebook.com/arbitraging
-+- Whitepaper: https://www.arbitraging.co/index_files/docs/Whitepaper_EN.pdf
-+name: Arbitraging
-+symbol: ARB
+---
+addr: '0xafbec4d65bc7b116d85107fd05d912491029bf46'
+decimals: 18
+description: >-
+Arbitraging is an arbitrage trading company that specializes in creating sophisticated algorithms, is called ARBITRAGE
+links:
+- Website: https://www.arbitraging.co/
+- Email: mailto:arbitraging@arbitraging.co
+- Telegram: https://t.me/arbofficial
+- Twitter: https://twitter.com/arbitragingco
+- Facebook: https://web.facebook.com/arbitraging
+- Whitepaper: https://www.arbitraging.co/index_files/docs/Whitepaper_EN.pdf
+name: Arbitraging
+symbol: ARB
