@@ -1,0 +1,25 @@
+---
+__FORKDELTA_CUSTOM_SYMBOL: AVOID CONFLICT WITH 0x9dfe4643c04078a46803edcc30a3291b76d4c20c
+addr: '0x543ff227f64aa17ea132bf9886cab5db55dcaddf'
+decimals: 18
+description: >-
+  DAOstack is an operational stack for DAOs, a comprehensive toolkit for
+  decentralized collaboration at scale. It provides the governance and economic
+  framework needed for collectives to self-organize around shared goals and
+  interests. DAOstack is based on a fully open, modular and upgradable
+  architecture.
+links:
+- Bitcointalk: https://bitcointalk.org/index.php?topic=3334795.0
+- Blog: https://medium.com/daostack
+- CoinGecko: https://www.coingecko.com/en/coins/daostack/
+- CoinMarketCap: https://coinmarketcap.com/currencies/daostack/
+- Email: mailto:hello@daostack.io
+- Github: https://github.com/daostack
+- Reddit: https://www.reddit.com/r/daostack/
+- Telegram: https://t.me/daostackcommunity
+- Twitter: https://twitter.com/daostack
+- Website: https://daostack.io
+- Whitepaper: https://daostack.io/wp/DAOstack-White-Paper-en.pdf
+- YouTube: https://www.youtube.com/channel/UCX4GNxoP4GdGQk7pUp0j6JA
+name: DAOstack
+symbol: GEN
