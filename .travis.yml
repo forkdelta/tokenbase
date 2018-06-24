@@ -1,14 +1,6 @@
 ---
-sudo: required
-dist: precise
 language: python
 python: "3.6"
-addons:
-  apt:
-    packages:
-      - ca-certificates
-      - openssl
-
 before_install:
   - |
     git diff --name-only --diff-filter=d $TRAVIS_COMMIT_RANGE | grep -q tokens/ || {
@@ -18,7 +10,6 @@ before_install:
   - git diff --name-only --diff-filter=d $TRAVIS_COMMIT_RANGE | grep tokens/
 
 install:
-  - sudo update-ca-certificates --verbose
   - pip install yamllint
   - pip install -r scripts/requirements.txt
 cache: pip
