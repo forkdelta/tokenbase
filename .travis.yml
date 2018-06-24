@@ -5,6 +5,7 @@ addons:
   apt:
     packages:
       - ca-certificates
+      - openssl
 
 before_install:
   - |
