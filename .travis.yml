@@ -1,6 +1,11 @@
 ---
 language: python
 python: "3.6"
+addons:
+  apt:
+    packages:
+      - ca-certificates
+
 before_install:
   - |
     git diff --name-only --diff-filter=d $TRAVIS_COMMIT_RANGE | grep -q tokens/ || {
