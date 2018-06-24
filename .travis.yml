@@ -16,6 +16,7 @@ before_install:
   - git diff --name-only --diff-filter=d $TRAVIS_COMMIT_RANGE | grep tokens/
 
 install:
+  - update-ca-certificates --verbose
   - pip install yamllint
   - pip install -r scripts/requirements.txt
 cache: pip
