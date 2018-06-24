@@ -20,5 +20,6 @@ install:
 cache: pip
 
 script:
+  - curl --verbose https://gifto.io/
   - git diff --name-only --diff-filter=d $TRAVIS_COMMIT_RANGE | grep tokens/ | xargs python scripts/test.py
   - git diff --name-only --diff-filter=d $TRAVIS_COMMIT_RANGE | grep tokens/ | xargs yamllint -c .yamllint
