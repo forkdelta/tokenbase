@@ -1,0 +1,20 @@
+---
+addr: '0x6c6ee5e31d828de241282b9606c8e98ea48526e2'
+decimals: 18
+description: >-
+  Holo is a decentralized hosting platform that enables fully-functional decentralized applications to serve mainstream Internet users, and provides the massively scalable crypto-accounting infrastructure required to host and manage these applications at such enormous volumes of usage.
+links:
+- Bitcointalk: https://bitcointalk.org/index.php?topic=2963267.0
+- Blog: https://medium.com/h-o-l-o
+- Email: mailto:help@holo.host
+- Facebook: https://www.facebook.com/holohost/
+- Github: https://github.com/Holo-Host
+- Reddit: https://www.reddit.com/r/holochain/
+- Telegram: https://t.me/channelholo
+- Chat: https://chat.holochain.org
+- Twitter: https://twitter.com/H_O_L_O_
+- Website: https://holo.host
+- Website: https://holochain.org
+- Whitepaper: https://holo.host/whitepapers/
+name: HoloToken
+symbol: HOT
