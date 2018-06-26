@@ -4,7 +4,7 @@ decimals: 18
 description: >-
   Restoring Health to the Internet
 links:
-- CoinMarketCap: primas
+- CoinMarketCap: https://coinmarketcap.com/currencies/primas/
 - Email: mailto:support@primas.io
 - Facebook: https://www.facebook.com/summer.primas
 - Github: https://github.com/primasio
