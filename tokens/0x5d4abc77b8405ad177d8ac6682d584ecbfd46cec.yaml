@@ -1,16 +1,16 @@
 ---
-addr: '0xe3fedaecd47aa8eab6b23227b0ee56f092c967a9'
+addr: '0x5d4abc77b8405ad177d8ac6682d584ecbfd46cec'
 decimals: 18
 description: >-
-  下一代内容价值生态圈
+  Restoring Health to the Internet
 links:
-- CoinMarketCap: primas
-- Email: mailto:hi@primas.io
+- CoinMarketCap: https://coinmarketcap.com/currencies/primas/
+- Email: mailto:support@primas.io
 - Facebook: https://www.facebook.com/summer.primas
 - Github: https://github.com/primasio
 - Slack: https://primasio.slack.com/
 - Twitter: https://twitter.com/PrimasOfficial
 - Website: https://primas.io/
-- Whitepaper: https://yb-public.oss-cn-shanghai.aliyuncs.com/primas/primas-1.2.1.pdf
+- Whitepaper: https://primas.io/whitepaper/en
 name: Primas
 symbol: PST
