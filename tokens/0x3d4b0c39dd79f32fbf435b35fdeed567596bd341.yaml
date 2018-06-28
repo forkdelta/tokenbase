@@ -1,0 +1,13 @@
+---
+addr: '0x3d4b0c39dd79f32fbf435b35fdeed567596bd341'
+decimals: 18
+description: >-
+  A cofounder-based ERC20 token written to be performant for the most common ERC20 token functions
+  (transfer, transferFrom, and approve). Used in turn-based decentralized entertainment
+  applications and simple for the recent cryptocurrency entrant.
+links:
+- Github: https://github.com/urichie-project/richgold
+- Website: https://rich-gold.com
+
+name: RichGoldToken
+symbol: RIG
