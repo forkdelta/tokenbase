@@ -1,0 +1,16 @@
+---
+addr: '0xc7bba5b765581efb2cdd2679db5bea9ee79b201f'
+decimals: 18
+description: >-
+  Gems is the protocol for decentralized mechanical turk. People will use Gems to complete micro tasks.
+  The Gems Protocol assesses the validity of work and trust of network participants; DApps will be built
+  on top of the Gems Protocol which pairs workers and requesters for micro tasks.
+links:
+- Blog: https://blog.gems.org/
+- CoinMarketCap: https://coinmarketcap.com/currencies/gems-protocol/
+- Reddit: https://www.reddit.com/r/GemsProtocol/
+- Twitter: https://twitter.com/gems
+- Website: https://www.gems.org/
+- Whitepaper: https://gems.org/whitepaper.pdf
+name: Gems
+symbol: GEM
