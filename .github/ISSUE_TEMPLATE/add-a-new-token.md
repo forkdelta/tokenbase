@@ -1,6 +1,6 @@
 ---
-name: Add a New Token
-about: Request addition of a new token to tokenbase
+name: GBCoin
+about: Our team is already looking forward to working with you.
 
 ---
 
@@ -21,19 +21,20 @@ Got questions? Join
 * or Telegram chat: https://t.me/ForkDeltaChat
 -->
 
-**Token address:**
+**Token addres: 0x638abd6f39ff141b2117e40c0b928659d76d2d08**
 
 
-**Issuer's official website:**
+**Website: https://gb-coin.io/**
 
 
-**Description:** <!-- 1-3 sentences for the token's description: at least one on the token issuer (eg., the product they are building) and one on token's purpose. -->
+**Description: Our GBCoin is created in a young and innovative team that wants to launch GBCoin to the global level.**
 
 
-**A link to the official contract address confirmation:** <!-- Contract address confirmation MUST be linked from the official website and MUST be visible publicly. If the confirmation is not visible immediately, include an explanation of how to find it. -->
+**A link to the official contract address confirmation:https://ethplorer.io/address/0x638abd6f39ff141b2117e40c0b928659d76d2d08** <!-- Contract address confirmation MUST be linked from the official website and MUST be visible publicly. If the confirmation is not visible immediately, include an explanation of how to find it. -->
 
 
-**At least 2 links to third-party reviews or discussion of the token, the project/product, or the token issuer:**
+**At least 2 links to third-party reviews or discussion of the token, the project/product, or the token issuer:
+We have no connections for once. Our token is just the beginning. The site is still undergoing finalization. GBCoin would not be ICO.**
 <!--
 Reviews must include review of project vision, team, milestones, or existing product.
 
