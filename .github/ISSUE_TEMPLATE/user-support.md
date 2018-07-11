@@ -1,6 +1,6 @@
 ---
-name: User Support
-about: Request information or support regarding tokenbase
+name: Danijel
+about: gb.coin.info@gmail.com
 
 ---
 
