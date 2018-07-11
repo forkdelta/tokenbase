@@ -31,7 +31,7 @@ links: https://www.gb-coin.io
 - Website: https://gb-coin.io/
 - Whitepaper: https://gb-coin.io/Whitepaper
 name: GBCoin
-symbol: GBC
+symbol:GBC
 
 ```
 
