@@ -1,6 +1,5 @@
 # [GBCoin](https://gb-coin.io/)
 
-[![Build Status](https://travis-ci.org/forkdelta/tokenbase.svg?branch=master)](https://travis-ci.org/forkdelta/tokenbase) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/forkdelta/tokenbase/issues)
 
 **GBCoin** is a decentralized Token ERC20-compliant tokens.
 
