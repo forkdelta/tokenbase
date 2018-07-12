@@ -46,3 +46,4 @@ Note:
 -->
 1. https://www.reddit.com/user/GBCoin1
 2. https://bitcointalk.org/ Coming soon
+3. https://twitter.com/gb_coin
