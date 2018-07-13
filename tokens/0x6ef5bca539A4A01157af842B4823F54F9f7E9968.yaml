@@ -1,0 +1,9 @@
+---  # ForkDelta Tokenbase https://github.com/forkdelta/tokenbase
+addr: '0x6ef5bca539A4A01157af842B4823F54F9f7E9968'
+decimals: 8
+links:
+- Email: mailto:support@d14na.org
+- Github: https://github.com/d14na/zerogold
+- Whitepaper: https://github.com/d14na/zerogold
+name: ZeroGold
+symbol: 0GOLD
