@@ -2,25 +2,25 @@
 addr: '0x922ac473a3cc241fd3a0049ed14536452d58d73c'
 decimals: 18
 description: >-
-  Valid is a data marketplace that will consist of a mobile wallet for users to
-  manage their digital identity and person data. Furthermore, the platform users
-  will be able to manage web applications for consumers to buy and access their
-  data on the marketplace.
+  VETRI is a data marketplace that will consist of a mobile wallet for users to
+  manage their digital identity and personal data. Furthermore, the platform
+  users will be able to manage web applications for consumers to buy and access
+  their data on the marketplace.
 
-  Valid token (VLD) is an ERC-20 compliant token that will work as a utility
-  token, enabling the transactions between users and data consumers on the Valid
+  VETRI (VLD) is an ERC-20 compliant token that will work as a utility token,
+  enabling the transactions between users and data consumers on the VETRI
   marketplace.
 links:
 - Bitcointalk: https://bitcointalk.org/index.php?topic=2727880.0
-- Blog: https://blog.valid.global/
-- Facebook: https://www.facebook.com/valid.global/
-- Github: https://github.com/valid-global/
-- Linkedin: https://www.linkedin.com/company/18346679/
-- Reddit: https://www.reddit.com/r/valid_global/
-- Telegram: https://t.me/valid_global
-- Twitter: https://twitter.com/valid_global
-- Website: https://valid.global
+- Blog: https://medium.com/vetri
+- Facebook: https://www.facebook.com/vetri.global/
+- Github: https://github.com/vetri-global/
+- Linkedin: https://www.linkedin.com/company/vetri-global/
+- Reddit: https://www.reddit.com/r/vetri_global/
+- Telegram: https://t.me/vetri_global
+- Twitter: https://twitter.com/vetri_global
+- Website: https://vetri.global
 - YouTube: https://www.youtube.com/channel/UCCjK3Sblx-Jxx8je84XakbQ
-- Whitepaper: https://valid.global/static/valid-wp-2.pdf
-name: VALID
+- Whitepaper: https://vetri.global/static/WP-VETRI.pdf
+name: VETRI
 symbol: VLD
