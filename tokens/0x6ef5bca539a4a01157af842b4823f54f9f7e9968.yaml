@@ -1,0 +1,9 @@
+---  # Added ZeroGold (0GOLD) by Zer0net to ForkDelta.
+addr: '0x6ef5bca539a4a01157af842b4823f54f9f7e9968'
+decimals: 8
+links:
+- Email: mailto:support@d14na.org
+- Github: https://github.com/d14na/zerogold
+- Whitepaper: https://github.com/d14na/zerogold
+name: ZeroGold
+symbol: 0GOLD
