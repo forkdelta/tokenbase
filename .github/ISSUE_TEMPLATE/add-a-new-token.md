@@ -1,6 +1,6 @@
 ---
-name: Add a New Token
-about: Request addition of a new token to tokenbase
+name: GBCoin
+about: Our GBC team is looking forward to doing business with you.
 
 ---
 
@@ -21,16 +21,17 @@ Got questions? Join
 * or Telegram chat: https://t.me/ForkDeltaChat
 -->
 
-**Token address:**
+**Token address:** 	0x638abd6f39ff141b2117e40c0b928659d76d2d08
 
 
-**Issuer's official website:**
+**Website:** https://gb-coin.io/
 
 
-**Description:** <!-- 1-3 sentences for the token's description: at least one on the token issuer (eg., the product they are building) and one on token's purpose. -->
+**Description:** <!-- 1-3 sentences for the token's description: at least one on the token issuer (eg., the product they are building) and one on token's purpose. --> 
+GBCoin is a product that has the vision of becoming a globally recognized currency. Our team is very innovative. GBCoin is a 100% decentralized currency.
 
 
-**A link to the official contract address confirmation:** <!-- Contract address confirmation MUST be linked from the official website and MUST be visible publicly. If the confirmation is not visible immediately, include an explanation of how to find it. -->
+**A link to the official contract address confirmation:** <!-- Contract address confirmation MUST be linked from the official website and MUST be visible publicly. If the confirmation is not visible immediately, include an explanation of how to find it. -->  https://ethplorer.io/address/0x638abd6f39ff141b2117e40c0b928659d76d2d08
 
 
 **At least 2 links to third-party reviews or discussion of the token, the project/product, or the token issuer:**
@@ -42,5 +43,6 @@ Note:
 * We are looking for substance in reviews. BitcoinTalk announcements and ICO aggregator pages are NOT an acceptable source. Reviews like "Interesting project, good luck", "to the moon" are NOT acceptable.
 * Project's social media channels (Reddit, Twitter, Facebook, Telegram and others) are not acceptable.
 -->
-1. 
-2.
+1. https://bitcointalk.org/ Coming soon
+2. https://www.reddit.com/user/GBCoin1
+3. https://twitter.com/gb_coin
