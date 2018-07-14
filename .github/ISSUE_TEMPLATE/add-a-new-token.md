@@ -45,4 +45,4 @@ Note:
 -->
 1. https://bitcointalk.org/ Coming soon
 2. https://www.reddit.com/user/GBCoin1
-3. https://twitter.com/ Coming soon
+3. https://twitter.com/gb_coin
