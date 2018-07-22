@@ -1,4 +1,5 @@
 ---
+__FORKDELTA_CUSTOM_SYMBOL: REP_OLD
 addr: '0xe94327d07fc17907b4db788e5adf2ed424addff6'
 decimals: 18
 description: >-
@@ -10,7 +11,7 @@ description: >-
   kind consensus based system and a unique token called REPutation.
 links:
 - Blog: http://medium.com/@augurproject
-- CoinMarketCap: augur
+- CoinMarketCap: https://coinmarketcap.com/currencies/augur/
 - Email: mailto:team@augur.net
 - Facebook: https://www.facebook.com/augurproject
 - Github: https://github.com/AugurProject
