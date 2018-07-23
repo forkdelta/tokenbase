@@ -1,7 +1,8 @@
 ---
 addr: '0x4ea1771f6ae14dc51e5f3236afca5de34b2c8021'
 decimals: 18
-description: >-  BEAST token is a utility token which has no ICO nor intial funding but is creating a premium crypto analysis
+description:
+  BEAST token is a utility token which has no ICO nor intial funding but is creating a premium crypto analysis
 website where top analytics can review icos and cryptocurrencies, members will pay a monthly fee with
 the BEAST token and be able to upvote the top reviews. The most upvoted individual will receive a % in Ethereum
 of the total users.
