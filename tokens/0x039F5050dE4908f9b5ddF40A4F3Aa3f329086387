@@ -1,0 +1,15 @@
+---
+addr: '0x039F5050dE4908f9b5ddF40A4F3Aa3f329086387'
+decimals: 18
+description: >-
+  We have built a platform to buy and sell shares.  We are reinventing the global equity blockchain – that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital and the way investors buy and sell shares.
+links:
+- Blog: https://medium.com/@ethernetcash
+- CoinMarketCap: Ethernet Cash
+- Email: mailto:admin@ethernet.cash
+- Github: https://github.com/ethernetcash
+- Twitter: https://twitter.com/ethernetcash
+- Website: https://ethernet.cash
+- Whitepaper: https://ethernet.cash/docs/Ethernet-Cash-(ENC)-WhitePaper.pdf
+name: Ethernet Cash
+symbol: ENC
