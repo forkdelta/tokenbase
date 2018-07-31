@@ -4,7 +4,7 @@ decimals: 8
 description: >-
   Guld is a decentralized internet platform, which allows individuals to take control of their digital identity by 
   controlling all of their digital data using a unified PGP keyring and an advanced blocktree data structure.
-  
+
   GULD is a utility token. It can be used to register user, group and device accounts to the guld p2p network, 
   this is how you reserve a name in the Guld Name Service (gns). Additionally GULD can be exchanged for GG tokens to 
   be used in Guld Games, or used as-is within the Guld network.
@@ -12,11 +12,9 @@ description: >-
   Guld and Ethereum are now able to interact in a number of ways, including cross-chain transactions, identity verification, and publishing. The official contract address is 0x9847345de8b614c956146bbea549336d9c8d26b6. 
 
 links:
-- CoinMarketCap: GULD ERC20
 - Github: https://github.com/guldcoin
 - Telegram: https://t.me/guldblocktree
-- Twitter: https://twitter.com/guldblocktree
-- Website: https://www.guld.io
+- Twitter: https://twitter.com/guldcoin
 - Website: https://www.guld.io
 - Whitepaper: https://guld.io/docs/guld-whitepaper.pdf
 name: GULD ERC20
