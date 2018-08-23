@@ -3,9 +3,8 @@ addr: '0x1bd4e709a076fb71ea1014293a739f2b19ca565d'
 decimals: 8
 description: >-
   Labtorum is an ERC20 wallet application that provides information about profit on trading,
-  so that users can get profit while trading. With the user experience that we currently apply
-  to the application view to facilitate the creation, recovery, import / export wallet
-  and transaction in this application.
+  so that users can get profit while trading.
+  With the user experience that we currently apply to the application view to facilitate and transaction in this application.
 links:
 - Github: https://github.com/labtorum
 - Facebook: https://www.facebook.com/labtorum/
