@@ -8,7 +8,7 @@ from web3 import Web3, HTTPProvider
 from web3.exceptions import BadFunctionCallOutput
 import yaml
 
-web3 = Web3(HTTPProvider("https://api.myetherapi.com/eth"))
+web3 = Web3(HTTPProvider("https://api.myetherwallet.com/eth"))
 with open("scripts/erc20.abi.json") as erc20_abi_f:
     ERC20_ABI = json.load(erc20_abi_f)
 
