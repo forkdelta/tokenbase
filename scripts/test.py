@@ -337,14 +337,21 @@ def main(targets, quiet=False):
     failures_count = 0
 
     for target in targets:
+        print("Checking", target)
         try:
             with open(target) as f:
                 content = yaml.safe_load(f.read())
+        except yaml.scanner.ScannerError as exc:
+            test_results.append((target, None, exc))
+            failures_count += 1
+            print("  {} (ERROR - {})".format(exc.__class__.__name__,
+                                             failures_count))
+            print("  Aborted test for {}".format(target))
+            continue
         except FileNotFoundError:
-            print("File not found: {}".format(target))
+            print("  File not found: {}".format(target))
             continue
 
-        print("Checking", target)
         for test in generate_tests(target, content):
             try:
                 retval = test(content)
@@ -394,7 +401,8 @@ def main(targets, quiet=False):
         else:
             print("  {}) Failure/Error: {}: {}".format(
                 idx + 1, outcome.__class__.__name__, outcome))
-            print("        in {}: {}".format(test.__name__, test.__doc__))
+            if test is not None:
+                print("        in {}: {}".format(test.__name__, test.__doc__))
             if not isinstance(outcome, AssertionError):
                 traceback.print_tb(outcome.__traceback__)
         print()
