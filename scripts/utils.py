@@ -3,7 +3,7 @@ import requests
 
 REQUESTS_USERAGENT = 'ForkDelta Token Discovery 0.0.1'
 
-FORKDELTA_LISTINGS_URL = "https://rawgit.com/forkdelta/forkdelta.github.io/master/config/main.json"
+FORKDELTA_LISTINGS_URL = "https://rawgit.com/forkdelta/classic-frontend/master/config/main.json"
 
 
 def get_forkdelta_listings(filepath_or_url=FORKDELTA_LISTINGS_URL):
@@ -124,7 +124,7 @@ def get_website(url, render=False):
         else:
             response = session.get(url, cookies=tokens)
 
-    if render:
+    if False and render:
         response.html.render(sleep=8)
         return response.html.html
     else:
