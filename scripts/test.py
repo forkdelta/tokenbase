@@ -123,6 +123,15 @@ def test_name_key_nonempty_string(content):
     assert_nonempty_string(content, "name")
 
 
+def test_name_equals_erc20_name(content):
+    "name should reflect the name defined by the contract"
+    contract_name = web3.eth.contract(
+        content["addr"], abi=ERC20_ABI).call().name()
+    if content["name"] != contract_name:
+        raise TestWarning("expected name to be {}, but got {}".format(
+            contract_name, content["name"]))
+
+
 def test_symbol_key_exists(content):
     "symbol must be present"
     assert_key_in_dict(content, "symbol")
@@ -131,6 +140,15 @@ def test_symbol_key_exists(content):
 def test_symbol_nonempty_string(content):
     "symbol must be a non-empty string"
     assert_nonempty_string(content, "symbol")
+
+
+def test_symbol_equals_erc20_symbol(content):
+    "name should reflect the symbol defined by the contract"
+    contract_symbol = web3.eth.contract(
+        content["addr"], abi=ERC20_ABI).call().symbol()
+    if content["symbol"] != contract_symbol:
+        raise TestWarning("expected symbol to be {}, but got {}".format(
+            contract_symbol, content["symbol"]))
 
 
 def test_contract_erc20_totalSupply(content):
@@ -279,7 +297,8 @@ CONTENT_TESTS = (test_addr_key_exists, test_addr_0x_string,
                  test_decimals_key_exists, test_decimals_int,
                  test_decimals_range, test_decimals_equals_erc20_decimals,
                  test_name_key_exists, test_name_key_nonempty_string,
-                 test_symbol_key_exists, test_symbol_nonempty_string,
+                 test_name_equals_erc20_name, test_symbol_key_exists,
+                 test_symbol_nonempty_string, test_symbol_equals_erc20_symbol,
                  test_contract_erc20_totalSupply,
                  test_contract_erc20_balanceOf, test_description_string,
                  test_description_nonempty, test_description_max_length,
