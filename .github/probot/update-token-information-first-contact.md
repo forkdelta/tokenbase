@@ -1,6 +1,6 @@
 <!-- First contact -->
 
-Thank you for your request, @{{ issue.user.login }}!
+Thank you for submitting an update request, @{{ issue.user.login }}! We'll review it as soon as possible.
 
 **For your safety, please note the following:**
 
@@ -12,8 +12,7 @@ Thank you for your request, @{{ issue.user.login }}!
 
 **Next steps:**
 
-- Please make sure your request follows the [required format](https://github.com/forkdelta/tokenbase/blob/master/.github/ISSUE_TEMPLATE/add-a-new-token.md) and that the information provided is complete and accurate. This will improve the speed of processing your request greatly.
-- Keep an eye on this issue. We will post all follow-up and additional questions here, at [`https://github.com/forkdelta/tokenbase/issues/{{ issue.number }}`](https://github.com/forkdelta/tokenbase/issues/{{ issue.number }}).
-- You can expect to hear back from us within 8 weeks.
-- You will receive a notification once your request has been reviewed for completeness and accepted.
-- You will receive another notification when the token you requested is about to be added, along with the date when it is added.
+- Keep an eye on this issue. We will post any follow-up here, at [`https://github.com/forkdelta/tokenbase/issues/{{ issue.number }}`](https://github.com/forkdelta/tokenbase/issues/{{ issue.number }}).
+- You can expect to hear from us within 2 weeks.
+- We will let you know once the changes you have requested are ready to be published.
+- We will let you know again once the changes you have requested are live.
