@@ -1,20 +1,43 @@
-on('issues.opened')
-  .filter(context => context.payload.issue.body.match(/This is a request to add a new token to tokenbase/))
-  .comment(`
-<!-- First contact -->
+const KNOWN_TEMPLATES = {
+  "add-a-new-token": /This is a request to add a new token to tokenbase/,
+  "update-token-information": /This is a request to update token information/,
+  "user-support": /This is a user support issue/
+};
 
-Thank you for your request, @{{ issue.user.login }}!
+const NEW_TOKEN_PROJECT = "Add or Update Token";
+const NEW_TOKEN_COLUMN = "Needs Review";
 
-**For your safety, please note the following:**
-- All communication regarding your request will be posted publicly in this request. You can check the entire history for the request here, at https://github.com/forkdelta/tokenbase/issues/{{ issue.number }}.
-- Users affiliated with ForkDelta project will have a "Member" badge on their comment. You may also see comments from other users.
-- **There is no payment, it's free!** There is no charge for adding or updating tokens.  If you receive any messages asking for payment, do not respond to them.
-- We will not ask you to move conversation to email or a messenger.
-- We do not provide Tokenbase support over email or direct messages. If you have questions or concerns, please post them here.
+on("issues.opened")
+  .filter(
+    // Find issues not matching any templates
+    context =>
+      Object.values(KNOWN_TEMPLATES).filter(template =>
+        context.payload.issue.body.match(template)
+      ).length === 0
+  )
+  .comment(contents(".github/probot/no-template.md"))
+  .close();
 
-Next steps:
-- Please make sure your request follows the [required format](https://github.com/forkdelta/tokenbase/blob/master/.github/ISSUE_TEMPLATE/add-a-new-token.md) and that the information provided is complete and accurate. This will improve the speed of processing your request greatly.
-- Keep an eye on this issue. We will post all follow-up and additional questions here, at https://github.com/forkdelta/tokenbase/issues/{{ issue.number }}.
-- You will receive a notification once your request has been reviewed for completeness and accepted.
-- You will receive another notification when the token you requested is about to be added, along with the date when it is added.
-`);
+on("issues.opened")
+  .filter(context =>
+    context.payload.issue.body.match(KNOWN_TEMPLATES["add-a-new-token"])
+  )
+  .comment(contents(".github/probot/add-a-new-token-first-contact.md"))
+  .createCard({ project: NEW_TOKEN_PROJECT, column: NEW_TOKEN_COLUMN });
+
+on("issues.opened")
+  .filter(context =>
+    context.payload.issue.body.match(
+      KNOWN_TEMPLATES["update-token-information"]
+    )
+  )
+  .assign("freeatnet")
+  .comment(
+    contents(".github/probot/update-token-information-first-contact.md")
+  );
+
+on("issues.opened")
+  .filter(context =>
+    context.payload.issue.body.match(KNOWN_TEMPLATES["user-support"])
+  )
+  .assign("freeatnet");
