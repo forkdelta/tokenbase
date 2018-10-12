@@ -1,16 +1,18 @@
 ---
 addr: '0x61B21C6EE787bC1dF5EF873E5F6809711C62Ab92'
 decimals: 8
-description: >-
-  A crypto token that powers dalemat ecosystem. This is a community that hopes to teach  and educate  as
-  many as possible on how  crypto currency trading and investing can be used to improve their finances.
 links:
 - Bitcointalk: https://bitcointalk.org/index.php?topic=5037662.0
-- CoinMarketCap: upi
+- Blog: https://upicoin.com/category/upi-news/
 - Email: mailto:admin@upicoin.com
 - Facebook: https://www.facebook.com/upicoin/
+- Github: https://github.com/UPICoin
+- Reddit: https://www.reddit.com/r/upicoin
 - Telegram: https://t.me/UPI_Group
 - Twitter: https://twitter.com/Upi_Coin
-- Website: http://www.upicoin.com/
-name: UPI
+- Website: https://www.upicoin.com/
+- Whitepaper: https://upicoin.com/UPI-whitepaper.pdf
+name: Unit Payment International
 symbol: UPI
+description: Main currency of the UPI Technologies & Research project
+notice: Unit Payment International (UPI) tokens will be swapped from the Ethereum Main Network into a new PoW blockchain.
