@@ -4,7 +4,7 @@ decimals: 2
 description: >-
   FaceCoin uses peer to peer networking and the blockchain to help your friends connect and share.
 links:
-- CoinMarketCap: facecoin
+- CoinMarketCap: https://coinmarketcap.com/currencies/facecoin/
 - Slack: https://facecoin.slack.com/join/shared_invite/MjI5NzUzNDU0Nzg2LTE1MDMzNjY5MzktZjAwNGQ0YTEzZQ
 - Twitter: https://twitter.com/facecointech
 - Website: http://facecoin.tech/ico/

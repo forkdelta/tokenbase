@@ -7,7 +7,7 @@ description: >-
   accessible to everyone. CoinDash will offer its products through a unified platform designed with the
   mainstream user in mind.
 links:
-- CoinMarketCap: coindash
+- CoinMarketCap: https://coinmarketcap.com/currencies/coindash/
 - Email: mailto:contact@coindash.io
 - Facebook: https://www.facebook.com/coindash.io/
 - Slack: https://coindasher-slack.herokuapp.com/

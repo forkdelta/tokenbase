@@ -7,7 +7,7 @@ description: >-
   who has a data feed, useful off-chain service such as local payments, or any other API, can now provide
   them directly to smart contracts in exchange for LINK tokens.
 links:
-- CoinMarketCap: chainlink
+- CoinMarketCap: https://coinmarketcap.com/currencies/chainlink/
 - Email: mailto:chainlink@smartcontract.com
 - Twitter: https://twitter.com/smart_contract
 - Website: https://link.smartcontract.com/

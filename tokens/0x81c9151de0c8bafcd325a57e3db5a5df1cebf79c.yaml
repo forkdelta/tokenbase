@@ -4,7 +4,7 @@ decimals: 18
 description: >-
   Datum is a global data marketplace that allows you to make money from your own data.
 links:
-- CoinMarketCap: datum
+- CoinMarketCap: https://coinmarketcap.com/currencies/datum/
 - Email: mailto:hello@datum.org
 - Facebook: https://facebook.com/datumnetwork
 - Telegram: https://t.me/datumnetwork

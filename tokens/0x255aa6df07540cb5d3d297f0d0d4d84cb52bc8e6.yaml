@@ -7,7 +7,7 @@ description: >-
   project is work in progress. Its goal is to research state channel technology, define protocols and
   develop reference implementations.
 links:
-- CoinMarketCap: raiden-network-token
+- CoinMarketCap: https://coinmarketcap.com/currencies/raiden-network-token/
 - Email: mailto:contact@raiden.network
 - Github: https://github.com/raiden-network/raiden/
 - Reddit: https://www.reddit.com/r/raidennetwork/

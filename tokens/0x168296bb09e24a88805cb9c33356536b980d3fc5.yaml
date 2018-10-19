@@ -5,7 +5,7 @@ description: >-
   The RHOC token is an RChain.coop promotional token redeemable for the actual RChain token when the network
   is launched.
 links:
-- CoinMarketCap: rchain
+- CoinMarketCap: https://coinmarketcap.com/currencies/rchain/
 - Github: https://github.com/rchain/
 - Slack: http://slack.rchain.coop/
 - Twitter: https://twitter.com/rchain_coop/

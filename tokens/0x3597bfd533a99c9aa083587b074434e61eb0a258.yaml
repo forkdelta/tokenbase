@@ -4,7 +4,7 @@ decimals: 8
 description: >-
   Tokenizing the Mobile Data Industry
 links:
-- CoinMarketCap: dent
+- CoinMarketCap: https://coinmarketcap.com/currencies/dent/
 - Email: mailto:info@dentcoin.com
 - Facebook: https://facebook.com/dentcoin
 - Slack: https://dentcoin.herokuapp.com/

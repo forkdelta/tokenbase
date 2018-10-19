@@ -6,7 +6,7 @@ description: >-
   smart contract on Ethereum. The Accelerator Token allows holders to mine more Accelerator Tokens at
   pre-defined rate. Then, spend them for services offered by the Accelerator Network.
 links:
-- CoinMarketCap: accelerator-network
+- CoinMarketCap: https://coinmarketcap.com/currencies/accelerator-network/
 - Email: mailto:help@accelerator.network
 - Github: https://github.com/acceleratornetwork/accelerator-token
 - Slack: http://slack.accelerator.network/

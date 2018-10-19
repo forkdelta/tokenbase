@@ -4,7 +4,7 @@ decimals: 18
 description: >-
   A state-of-the-art digital asset exchange, EU token marketplace and wallet with powerful security features
 links:
-- CoinMarketCap: mothership
+- CoinMarketCap: https://coinmarketcap.com/currencies/mothership/
 - Email: mailto:hello@mothership.cx
 - Slack: http://slack.mothership.cx/
 - Telegram: https://t.me/mothershipcx

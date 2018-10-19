@@ -5,7 +5,7 @@ description: >-
   Status is an open source messaging platform and mobile browser to interact with decentralized applications
   that run on the Ethereum Network.
 links:
-- CoinMarketCap: status
+- CoinMarketCap: https://coinmarketcap.com/currencies/status/
 - Facebook: https://www.facebook.com/ethstatus
 - Github: https://github.com/status-im
 - Reddit: https://www.reddit.com/r/statusim/

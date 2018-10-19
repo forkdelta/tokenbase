@@ -5,7 +5,7 @@ description: >-
   MOAC is an ERC-20 token that helps to fund the project of MOAC -- which will create a new blockchain
   with several advanced features such as sharding, asynchronous contract, multi-layer, subchains, etc.
 links:
-- CoinMarketCap: moac
+- CoinMarketCap: https://coinmarketcap.com/currencies/moac/
 - Email: mailto:info@moac.io
 - Github: https://github.com/MOACChain/moac-core
 - Website: http://moac.io/

@@ -16,7 +16,7 @@ description: >-
   connects the SAN token value directly to the value of datafeeds and information Santiment produces.
 links:
 - Blog: https://medium.com/santiment
-- CoinMarketCap: santiment
+- CoinMarketCap: https://coinmarketcap.com/currencies/santiment/
 - Github: https://github.com/santiment
 - Slack: https://santiment-slack.herokuapp.com/
 - Twitter: https://twitter.com/santimentfeed

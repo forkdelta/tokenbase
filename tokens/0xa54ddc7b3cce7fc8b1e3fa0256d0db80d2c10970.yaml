@@ -4,7 +4,7 @@ decimals: 18
 description: >-
   A driving force behind the GNP of a real cash virtual goods economy.
 links:
-- CoinMarketCap: neverdie
+- CoinMarketCap: https://coinmarketcap.com/currencies/neverdie/
 - Website: https://neverdie.com
 name: NEVERDIE
 symbol: NDC
