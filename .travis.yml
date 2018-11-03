@@ -17,3 +17,11 @@ cache: pip
 script:
   - git diff --name-only --diff-filter=d $TRAVIS_COMMIT_RANGE | grep tokens/ | xargs python scripts/test.py
   - git diff --name-only --diff-filter=d $TRAVIS_COMMIT_RANGE | grep tokens/ | xargs yamllint -c .yamllint
+  - python scripts/build.py
+
+deploy:
+  provider: pages
+  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  skip-cleanup: true
+  on:
+    branch: master
