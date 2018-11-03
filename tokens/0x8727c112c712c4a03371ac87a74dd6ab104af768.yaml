@@ -4,7 +4,7 @@ decimals: 18
 description: >-
   Jetcoin enables ANYONE to launch the careers of tomorrow&rsquo;s super stars &ndash; the Jetcoin Champions.
 links:
-- CoinMarketCap: jetcoin
+- CoinMarketCap: https://coinmarketcap.com/currencies/jetcoin/
 - Facebook: https://www.facebook.com/jetcoins/
 - Slack: https://jetcoininstitute.slack.com/
 - Twitter: https://twitter.com/jetcoins

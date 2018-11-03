@@ -4,7 +4,7 @@ decimals: 8
 description: >-
   Blockchain-Backed Loans
 links:
-- CoinMarketCap: salt
+- CoinMarketCap: https://coinmarketcap.com/currencies/salt/
 - Email: mailto:support@saltlending.com
 - Facebook: http://facebook.com/SALTLENDING/
 - Telegram: https://t.me/joinchat/BmtZ5kKgf4ekiNLggHRDmQ

@@ -4,7 +4,7 @@ decimals: 3
 description: >-
   bitqy is the official cryptocurrency of bitqyck, Inc.
 links:
-- CoinMarketCap: bitqy
+- CoinMarketCap: https://coinmarketcap.com/currencies/bitqy/
 - Email: mailto:mike@bitqyck.com
 - Facebook: http://www.facebook.com/bitqyofficial
 - Slack: https://bitqy.slack.com/

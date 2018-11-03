@@ -4,7 +4,7 @@ decimals: 18
 description: >-
   An alternative implementation of the EOS project with widespread, non-ICO'd token distribution.
 links:
-- CoinMarketCap: xenon
+- CoinMarketCap: https://coinmarketcap.com/currencies/xenon/
 - Email: mailto:contact@xenon.network
 - Slack: https://join.slack.com/t/xenonnetwork/shared_invite/enQtMjQ1NzQ2MTQ1OTA2LWI5MjkzZWQxNzRmYzNmOGE5Nzc2MWYyN2NjM2Y2MTZjNjA2MDUyNmI5ZGFkNjU3YzE5NGVjNjA0YzkzMDk5ZGU
 - Twitter: https://twitter.com/XenonNet

@@ -6,7 +6,7 @@ description: >-
   account system (DAS) based on blockchain technology. The system has built-in exclusive token UG Token
   (UGT), which simultaneously has the equity attribute and monetary attribute.
 links:
-- CoinMarketCap: ug-token
+- CoinMarketCap: https://coinmarketcap.com/currencies/ug-token/
 - Website: http://ugchain.org/
 name: UG Token
 notice: >-

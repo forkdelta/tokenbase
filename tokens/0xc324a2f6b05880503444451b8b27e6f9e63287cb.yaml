@@ -5,7 +5,7 @@ description: >-
   XUC is a digital asset, similar to Ripple's XRP. It is optimized for real-time trades between digital
   asset exchanges and serves as fuel for each trade.
 links:
-- CoinMarketCap: exchange-union
+- CoinMarketCap: https://coinmarketcap.com/currencies/exchange-union/
 - Facebook: https://www.facebook.com/ExchangeUnion/
 - Reddit: https://www.reddit.com/r/ExchangeUnion/
 - Slack: https://exchange-union.slack.com/

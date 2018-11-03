@@ -11,7 +11,7 @@ description: >-
   We believe we can empower advertisers and publishers with a platform that is secure, transparent and
   beneficial for all the parties involved in the process, consumers included.
 links:
-- CoinMarketCap: adx-net
+- CoinMarketCap: https://coinmarketcap.com/currencies/adx-net/
 - Website: https://www.adex.network/
 name: AdEx
 symbol: ADX

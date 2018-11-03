@@ -4,7 +4,7 @@ decimals: 8
 description: >-
   Internxt, a simple, more private and secure decentralized cloud for files, apps and websites.
 links:
-- CoinMarketCap: internxt
+- CoinMarketCap: https://coinmarketcap.com/currencies/internxt/
 - Email: mailto:hello@internxt.io
 - Github: https://github.com/internxt
 - Telegram: https://t.me/internxt_io
