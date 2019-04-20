@@ -1,0 +1,10 @@
+---
+__FORKDELTA_CUSTOM_SYMBOL: ELTC2
+addr: '0x7e9d62e1ff4e34096f91ee0153222ab81f7184f0'
+decimals: 8
+description: >-
+  eLTC is an ERC20 version of Litecoin on the Ethereum blockchain.
+links:
+- Website: http://www.eltc.io
+name: eLTC
+symbol: ELTC

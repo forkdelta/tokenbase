@@ -1,0 +1,7 @@
+#!/bin/bash
+
+TOKEN_ADDR=$1
+python3 $(dirname $0)/token_info.py $1 $2 > tokens/$1.yaml
+if [ $? -eq 0 ]; then
+    ${EDITOR:-vi} tokens/$1.yaml
+fi

@@ -1,0 +1,11 @@
+---
+addr: '0x56e7f2cd7d5382506aab084a67d70e603cdb23f7'
+decimals: 8
+description: >-
+  BiCode is a mobile application that allows to transfer currency from a BiCode Wallet through a QR Code
+  without any confirmation by Blockchain. BiCode is free for basic function but Plugin and Modules may
+  be payed by BiCode Currency.
+links:
+- Website: https://bitcointalk.org/index.php?topic=2296578.0
+name: BiCode
+symbol: CODE

@@ -1,0 +1,20 @@
+---
+__FORKDELTA_CUSTOM_SYMBOL: CAT2
+addr: '0x111111f7e9b1fe072ade438f77e1ce861c7ee4e3'
+decimals: 18
+description: >-
+  BitClave is the next generation of search data privacy. You should have control over who can use it-
+  and how. Our decentralized search engine helps you truly find what you're looking for and get compensated
+  for your data, making third-party advertising networks unnecessary. Powered by blockchain, you can rest
+  assured your data is protected.
+links:
+- Website: https://www.bitclave.com/en/
+name: Consumer Activity Token
+notice: >-
+  New contract replacement
+
+  <p>Annoucement: <a href="https://medium.com/@BitClave/adding-cat-tokens-to-your-wallet-a1771fbe513d"
+  target="_blank"> Read here</a> </p>
+
+  <p>New contract: <a href="https://etherscan.io/token/0x1234567461d3f8db7496581774bd869c83d51c93">0x1234567461d3f8Db7496581774Bd869C83D51c93</a></p>
+symbol: CAT

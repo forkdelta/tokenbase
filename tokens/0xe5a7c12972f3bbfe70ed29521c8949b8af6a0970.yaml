@@ -1,0 +1,19 @@
+---
+addr: '0xe5a7c12972f3bbfe70ed29521c8949b8af6a0970'
+decimals: 18
+description: >-
+  The Blockchain Index measures the performance of digital assets that meet certain eligibility criteria.
+  The Blockchain Index DAA constituents and their corresponding weights are updated on a monthly basis
+  or more frequently due to the fast changing environment of the digital assets market. Digital assets
+  currently included in the DAA represent 78% of the total market capitalization of all digital assets.
+links:
+- Blog: https://medium.com/iconominet
+- CoinMarketCap: https://coinmarketcap.com/currencies/blockchain-index/
+- Email: mailto:support@iconomi.net
+- Facebook: https://www.facebook.com/iconomi.net
+- Reddit: https://www.reddit.com/r/ICONOMI/
+- Slack: https://iconominet.slack.com/
+- Twitter: https://twitter.com/iconominet
+- Website: https://www.iconomi.net/dashboard/#/INDEX
+name: Blockchain Index
+symbol: BLX

@@ -1,0 +1,20 @@
+---
+__FORKDELTA_CUSTOM_SYMBOL: BPRT
+addr: '0x327682779bab2bf4d1337e8974ab9de8275a7ca8'
+decimals: 18
+description: >-
+  Blockport are building a user-friendly crypto exchange that combines social trading with a hybrid-decentralized
+  architecture to help people safely trade crypto assets. It allows users to trade on multiple public exchanges
+  while keeping their own private keys. BPT tokens are ERC-20 tokens based on Ethereum. They allow users to
+  copy or follow other members' trading activities.
+links:
+- Bitcointalk: https://bitcointalk.org/index.php?topic=2549733.new#new
+- Blog: https://medium.com/blockport
+- Email: mailto:support@blockport.io
+- Facebook: https://www.facebook.com/blockport/
+- Telegram: https://t.me/blockport
+- Twitter: https://twitter.com/BlockportNL
+- Website: https://blockport.io/
+- Whitepaper: https://blockport.io/read-the/whitepaper.pdf
+name: Blockport Token
+symbol: BPT

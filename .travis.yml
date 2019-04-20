@@ -1,0 +1,30 @@
+---
+language: python
+python: "3.6"
+
+install:
+  - pip install yamllint
+  - pip install -r scripts/requirements.txt
+cache: pip
+
+before_script:
+  - export CHANGED_TOKEN_FILES=`git diff --name-only --diff-filter=d $TRAVIS_COMMIT_RANGE -- tokens/*.yaml`
+  - |
+    if [ ! -z "$CHANGED_TOKEN_FILES" ]; then
+      echo "Testing changes to ${CHANGED_TOKEN_FILES}";
+    else
+      echo "No token file changes detected in ${TRAVIS_COMMIT_RANGE}. Skipping tests.";
+    fi
+
+script:
+  - if [ ! -z "$CHANGED_TOKEN_FILES" ]; then yamllint -c .yamllint $CHANGED_TOKEN_FILES; fi
+  - if [ ! -z "$CHANGED_TOKEN_FILES" ]; then python scripts/test.py $CHANGED_TOKEN_FILES; fi
+
+before_deploy:
+  - python scripts/build.py
+deploy:
+  provider: pages
+  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  skip-cleanup: true
+  on:
+    branch: master
