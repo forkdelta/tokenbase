@@ -1,11 +1,7 @@
 ---
 addr: '0x949bEd886c739f1A3273629b3320db0C5024c719'
 decimals: 9
-description: >-
-  The AMIS designate Asset Management Instruments acting as 
-  one-stop shop Multi-dimensional, multi-purposes fast moving,
-  versatile transactional vehicles running on the ethereum
-  blockchain natively but also on BitShares and Waves cascaded blockchains.
+description: The AMIS designate Asset Management Instruments acting as one-stop shop Multi-dimensional, multi-purposes fast moving, versatile transactional vehicles running on the ethereum blockchain natively but also on BitShares and Waves cascaded blockchains.
 links:
 - Bitcointalk: https://bitcointalk.org/index.php?topic=1816765.0
 - Email: mailto:info@amisolution.net
