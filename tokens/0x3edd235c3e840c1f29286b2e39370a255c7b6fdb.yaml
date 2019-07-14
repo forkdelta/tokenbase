@@ -1,9 +1,17 @@
 ---
 addr: '0x3edd235c3e840c1f29286b2e39370a255c7b6fdb'
 decimals: 8
-description: >- COINMARKETBRASIL PROVES THE DECENTRALIZATION OF OPERATIONS IN ERP SYSTEMS, VALIDATING DATA IN A RELIABLE, SAFE AND EFFICIENT WAY, BY LEVERAGING AUTOMATED SMART CONTRACTS TO ENTERPRISE SYSTEMS, USING BLOCKCHAIN PROTOCOLS.
-  
+description: >-
+  COINMARKETBRASIL PROVES THE DECENTRALIZATION OF OPERATIONS IN ERP SYSTEMS, VALIDATING DATA IN A RELIABLE, SAFE AND EFFICIENT WAY, 
+  BY LEVERAGING AUTOMATED SMART CONTRACTS TO ENTERPRISE SYSTEMS, USING BLOCKCHAIN PROTOCOLS.
 links:
+- Bitcointalk: https://bitcointalk.org/index.php?topic=2992599.0
+- Email: mailto:support@cmbusinesstoken.com
+- Facebook: https://www.facebook.com/Coinmarketbr
+- Github: https://github.com/coinmarketbr
+- Telegram: https://t.me/cmbtoken
+- Twitter: https://twitter.com/CoinMarketBr
 - Website: https://cmbusinesstoken.com
-name: CMB Token
+- Whitepaper: https://cmbusinesstoken.com/CMBToken-White-Paper-EN.pdf
+name: CMB Token 
 symbol: CMBT
