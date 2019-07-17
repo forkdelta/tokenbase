@@ -21,16 +21,16 @@ Got questions? Join
 * or Telegram chat: https://t.me/ForkDeltaChat
 -->
 
-**Token address:**
+**Token address:** 0xe0c6CE3e73029F201e5C0Bedb97F67572A93711C
 
 
-**Issuer's official website:**
+**Issuer's official website:** https://ethplode.org/
 
 
-**Description:** <!-- 1-3 sentences for the token's description: at least one on the token issuer (eg., the product they are building) and one on token's purpose. -->
+**Description:** <!-- 1-3 sentences for the token's description: at least one on the token issuer (eg., the product they are building) and one on token's purpose. --> ETHplode is a store of value built on the Ethereum blockchain with deflationary characteristics.
 
 
-**A link to the official contract address confirmation:** <!-- Contract address confirmation MUST be linked from the official website and MUST be visible publicly. If the confirmation is not visible immediately, include an explanation of how to find it. -->
+**A link to the official contract address confirmation:** <!-- Contract address confirmation MUST be linked from the official website and MUST be visible publicly. If the confirmation is not visible immediately, include an explanation of how to find it. --> https://etherscan.io/token/0xe0c6CE3e73029F201e5C0Bedb97F67572A93711C
 
 
 **At least 2 links to third-party reviews or discussion of the token, the project/product, or the token issuer:**
@@ -42,5 +42,5 @@ Note:
 * We are looking for substance in reviews. BitcoinTalk announcements and ICO aggregator pages are NOT an acceptable source. Reviews like "Interesting project, good luck", "to the moon" are NOT acceptable.
 * Project's social media channels (Reddit, Twitter, Facebook, Telegram and others) are not acceptable.
 -->
-1. 
-2.
+1. https://twitter.com/ETHplode
+2. https://t.me/ETHplode
