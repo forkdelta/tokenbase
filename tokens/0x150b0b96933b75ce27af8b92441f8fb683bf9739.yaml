@@ -1,0 +1,18 @@
+---
+addr: '0x150b0b96933b75ce27af8b92441f8fb683bf9739'
+decimals: 18
+description: >-
+  GOLD is the in-game cryptocurrency of the Ethereum-based Dragonereum game where you can collect, breed and fight unique dragons.
+  Dragonereum is the ultimate cross between complex gameplay and decentralized technology.
+  Your goal? Breed dragons, destroy your enemies in pitched battles, trade with other players, and train the biggest, baddest killing machines around.
+links:
+  - Blog: https://medium.com/@dragonereum
+  - Email: mailto:hello@dragonereum.io
+  - Github: https://github.com/dragonereum
+  - Telegram: https://t.me/dragonereum
+  - Twitter: https://twitter.com/dragonereum
+  - Discord: https://discordapp.com/invite/WcGYHPX
+  - Website: https://dragonereum.io
+  - Whitepaper: https://dragonereum.io/dragonereum-whitepaper.pdf
+name: Dragonereum Gold
+symbol: GOLD
