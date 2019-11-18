@@ -3,7 +3,7 @@
 A listed token is a token that appears by
 
 This document defines a token listing, outlines the requirements a token must
-fulfill to be listed on ForkDelta platform, specifies the format a listing
+fulfill to be listed on BlueZakex platform, specifies the format a listing
 request must be presented in, and explains some of the reasoning behind the
 requirements.
 
