@@ -1,21 +1,17 @@
 ---
-addr: '0xef68e7c694f40c8202821edf525de3782458639f'
+addr: '0xbbbbca6a901c926f240b89eacb641d8aec7aeafd'
 decimals: 18
 description: >-
-  Loopring is not only a protocol but also a decentralized automated execution system that trades across
-  the crypto-token exchanges, shielding users from counterparty risk and reduce the cost of trading. By
-  essentially rising the liquidity of cryptocurrencies, we are building the financial system of the future.
+  Loopring is a protocol for building high-performance orderbook DEXs on Ethereum using zkRollup. 
 links:
 - Bitcointalk: https://bitcointalk.org/index.php?topic=2069498.msg21584045#msg21584045
 - Blog: https://medium.com/@loopring
 - CoinMarketCap: https://coinmarketcap.com/currencies/loopring/
 - Email: mailto:foundation@loopring.org
 - Github: https://github.com/loopring
-- Reddit: https://www.reddit.com/r/loopring/
-- Slack: https://loopring-team.slack.com/
+- Reddit: https://www.reddit.com/r/loopringorg/
 - Telegram: https://t.me/loopringfans
 - Twitter: https://twitter.com/loopringorg
-- Website: https://loopring.org/en/index.html
-- Whitepaper: https://github.com/Loopring/whitepaper
-name: loopring
+- Website: https://loopring.org
+name: Loopring
 symbol: LRC
