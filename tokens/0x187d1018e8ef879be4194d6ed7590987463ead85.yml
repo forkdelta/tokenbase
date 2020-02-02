@@ -1,1 +1,16 @@
-
+---
+addr: '0x187D1018E8ef879BE4194d6eD7590987463eAD85'
+decimals: 18
+description: >-
+What is FUZE?
+FUZE Token is a fully community-driven social experiment and the world’s first self-deflationary currency with a supply of 1000 tokens and a 5% burn rate.
+links:
+- CoinMarketCap: https://coinmarketcap.com/currencies/fuze-token/
+- Github: https://github.com/fuzeteam
+- Reddit: https://www.reddit.com/r/FUZE_Token/
+- Telegram: https://t.me/FUZE_Token
+- Twitter: https://twitter.com/TokenFuze
+- Website: https://fuzetoken.net/
+- Whitepaper: https://www.docdroid.net/whZspxx/fuze-token-whitepaper-v-1.pdf
+name: FUZE Token
+symbol: FUZE
