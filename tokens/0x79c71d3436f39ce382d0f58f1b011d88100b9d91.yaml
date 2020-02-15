@@ -1,6 +1,8 @@
 ---
 addr: '0x79c71d3436f39ce382d0f58f1b011d88100b9d91'
 decimals: 18
+description: >-
+  XeonbitToken XNS solution a decentralized trust system through a blockchain based payment gateway.
 links:
 - Email: mailto:contact@xeonbit.com
 - Bitcointalk: https://bitcointalk.org/index.php?topic=5067655.340
