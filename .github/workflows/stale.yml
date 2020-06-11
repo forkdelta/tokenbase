@@ -3,17 +3,26 @@ name: Close stale issues and pull requests
 on:
   schedule:
   - cron: "0 7 * * *"
+  push:
+    branches: [ master ]
 
 jobs:
   stale:
-
     runs-on: ubuntu-latest
-
     steps:
+    - name: Get bot token
+      id: generate_token
+      uses: tibdex/github-app-token@v1
+      with:
+        app_id: ${{ secrets.TOKENBASE_BOT_APP_ID }}
+        private_key: ${{ secrets.TOKENBASE_BOT_PRIVATE_KEY }}
     - uses: actions/stale@v1
       with:
-        repo-token: ${{ secrets.TOKENBASE_BOT_GITHUB_SECRET }}
-        stale-issue-message: 'This issue is stale because it has been open 21 days with no activity. Unless there is an update, it will be closed in 7 days.'
+        repo-token: ${{ steps.generate_token.outputs.token }}
+        stale-issue-message: >
+          This issue is stale because it has been open 21 days with no activity.
+          We probably just don't have the bandwith to work on this. Sorry! 
+          Unless there is an update, it will be closed in 7 days.
         stale-pr-message: 'This pull request is stale because it has been open 21 days with no activity. Unless there is an update, it will be closed in 7 days.'
         stale-issue-label: 'stale'
         stale-pr-label: 'stale'
