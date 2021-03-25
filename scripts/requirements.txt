@@ -20,4 +20,4 @@ semantic-version==2.6.0
 toolz==0.9.0
 urllib3==1.24.2
 web3==3.16.4
-PyYAML==3.12
+PyYAML==5.4
