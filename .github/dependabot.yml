@@ -1,0 +1,13 @@
+version: 2
+updates:
+- package-ecosystem: docker
+  directory: "/scripts"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: python
+    versions:
+    - 3.9.1.pre.alpine
+    - 3.9.2.pre.alpine
+    - 3.9.3.pre.alpine
